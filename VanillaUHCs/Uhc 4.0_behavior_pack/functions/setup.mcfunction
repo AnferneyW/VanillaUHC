@@ -85,10 +85,8 @@ scoreboard players set @s rodless 0
 scoreboard players set @s limitations 0
 scoreboard players set @s blooddiamonds 0
 scoreboard players set @s doubleores 0
-scoreboard players set @s teamamount 1
 scoreboard players set @s border 1
 scoreboard players set @s endborder 0
-scoreboard players set @s leavetimer 0
 scoreboard players set @s addsc 2
 scoreboard objectives setdisplay belowname team
 #testweise
