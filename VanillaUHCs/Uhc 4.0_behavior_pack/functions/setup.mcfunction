@@ -88,7 +88,7 @@ scoreboard players set @s doubleores 0
 scoreboard players set @s border 1
 scoreboard players set @s endborder 0
 scoreboard players set @s addsc 2
-scoreboard objectives setdisplay belowname team
+scoreboard objectives setdisplay below_name team
 #testweise
 time set day
 scoreboard objectives setdisplay sidebar setup_process
