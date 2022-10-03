@@ -6,7 +6,6 @@ scoreboard objectives remove interrupt
 scoreboard objectives remove hostlang
 scoreboard objectives remove createprocess
 scoreboard objectives remove teststart
-scoreboard objectives remove starting
 scoreboard objectives remove starting_timer
 scoreboard objectives remove teamspaceleft
 scoreboard objectives remove createtimer

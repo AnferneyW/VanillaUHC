@@ -5,7 +5,7 @@ execute @p[tag=mainhost] ~ ~ ~ kill @e[type=item,name=Truhe]
 execute @p[tag=mainhost] ~ ~ ~ kill @e[type=item,name=Chest]
 #ist aus
 execute @p[tag=mainhost,scores={exp_gameplay=0}] ~ ~ ~ scoreboard players set @p interrupt 1
-execute @p[tag=mainhost,scores={exp_gameplay=0,interrupt=1}] ~ ~ ~ replaceitem entity @p slot.hotbar 4 netherstar
+execute @p[tag=mainhost,scores={exp_gameplay=0,interrupt=1}] ~ ~ ~ replaceitem entity @p slot.hotbar 4 nether_star
 #ist an
 execute @p[tag=mainhost] ~ ~ ~ execute @e[type=item,name=Dead] ~ ~ ~ scoreboard players set @p exp_gameplay 1
 execute @p[tag=mainhost] ~ ~ ~ execute @e[type=item,name=Dead] ~ ~ ~ scoreboard players set @p interrupt 0

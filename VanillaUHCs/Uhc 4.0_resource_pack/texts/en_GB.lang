@@ -1,5 +1,5 @@
-//only english
-//items
+##only english
+##items
 item.uhc:golden_head.name=§6Golden Head
 item.uhc:head.name=§aHead
 item.uhc:dead.name=Dead
@@ -35,8 +35,8 @@ item.uhc:randomtp.name=§dRandomTP
 item.uhc:clearlag.name=§eClearlag
 entity.hovertext:hovertext.name=Hovertext
 entity.hovertext:marker.name=Marker
-//only german and english
-//host
+##only german and english
+##host
 setup.progress.begin=§a§lSetting up...
 setup.progress.load.spawn=§aLoading spawnchunks...
 setup.progress.optimated.spawn=Spawn was optimated (removed water)
@@ -54,7 +54,7 @@ setup.progress.language.avaible=§aLanguage is available
 setup.progress.finish=§aThe automated setup is finished. Now you adjust the game.
 create.process.actionbar=§cDrop the item to choose.
 start.failed=§cThe game already started.
-//inteam ids
+##inteam ids
 spectate.activate.team=§aYou are now spectating the game. This setting can §cnot anymore §abe changed 10 seconds before the game will start!!!
 spectate.deactivate.team=§aYou are now registered as a normal player.
 permission.denied=§4You have no permission to execute this command.
@@ -80,10 +80,10 @@ help6=§eSetup>>§f Only executing when creating a new world.
 help7=§eSpectate>>§f Everyone who uses this command is changing to spectatormode. Can also be used to get in vanish again.
 help8=§eStart>> §fSets the starting timer to 1 minute
 help9=§eWinner>> §fDetermines the last person standing kills and creates the linked structure.
-//
-//all languages
-//
-//countdown
+##
+##all languages
+##
+##countdown
 start.countdown=Starting game §ein 10mins
 close.setting.team=§cIn %s seconds you won't be able to choose a team anymore.
 close.setting.team.finish=§eTeams are now set. §aCrossteaming is allowed.
@@ -93,13 +93,13 @@ scatter.players=§eScattering players
 game.start=Game is starting in §e%s §fseconds.
 activate.scenarios=§aActivating all scenarios...
 game.started=§eGame §fstarted!
-//changed default messages
+##changed default messages
 commands.message.display.incoming=§o[MSG] %2$s
 multiplayer.player.joined=%s joined the UHC.
 multiplayer.player.left=%s left the UHC.
-//changelog
+##changelog
 uhchelp.title=§fIf you have any §equestions/problems §f contact §e@RealMZLP §fon Twitter.
-//config1
+##config1
 config1.1=§a§lRush §6Config:
 config1.2=§f-------------------
 config1.3=§eFinal Heal §fat 10 minutes
@@ -109,7 +109,7 @@ config1.6=§eBorder 500 §fat 35 minutes
 config1.7=§eBorder 250 §fat 40 minutes
 config1.8=§eBorder 100 §fat 45 minutes
 config1.9=§eEndborder 50 §fat 50 minutes
-//config2
+##config2
 config2.1=§a§lUHC 3.0 §6Config:
 config2.2=§f-------------------
 config2.3=§e1. Heal §fat 10 minutes
@@ -120,7 +120,7 @@ config2.7=§eBorder 500 §fat 50 minutes
 config2.8=§eBorder 250 §fat 55 minutes
 config2.9=§eBorder 100 §fat 60 minutes
 config2.10=§eEndborder 50 §fat 65 minutes
-//config3
+##config3
 config3.1=§a§lUHC 3.0 (One Heal) §6Config:
 config3.2=§f-------------------
 config3.3=§eFinal Heal §fat 10 minutes
@@ -130,7 +130,7 @@ config3.6=§eBorder 500 §fat 50 minutes
 config3.7=§eBorder 250 §fat 55 minutes
 config3.8=§eBorder 100 §fat 60 minutes
 config3.9=§eEndborder 50 §fat 65 minutes
-//config4
+##config4
 config4.1=§6§l Paradox Config:
 config4.2=§f-------------------
 config4.3=§eFinal Heal §fat 10 minutes
@@ -140,7 +140,7 @@ config4.6=§eBorder 500 §fat 50 minutes
 config4.7=§eBorder 250 §fat 55 minutes
 config4.8=§eBorder 100 §fat 60 minutes
 config4.9=§eEndborder 50 §fat 65 minutes
-//config other stuff
+##config other stuff
 config.developed=§cDeveloped by MZLP
 config.settings=§eSettings:
 config.nether.on=§eNether: §fON
@@ -163,28 +163,28 @@ config.to3=§eTeamsize: §fTO3
 config.to4=§eTeamsize: §fTO4
 config.to5=§eTeamsize: §fTO5
 config.scenarios=Scenarios:
-//freeze messages
-freeze.info1=§fYou were suspected of §exraying§f. §eSend a screenshot in #screenshots on our discord. You are allowed to leave and send the screenshot, but you're not allowed to rejoin before sending it then.
+##freeze messages
+freeze.info1=§fYou were suspected of §exraying§f. §eSend a screenshot in the screenshot chat on our discord. You are allowed to leave and send the screenshot, but you're not allowed to rejoin before sending it then.
 freeze.info2=§fYou were suspected of §echeating§f. §fIf you are §eWin10 §fyou have to create a ticket in the support category and write your anydesk code there. When you're §emobile §fyou have to take a screenshot from the §eapps §fthat you have currently open. 
 freeze.finish=§fYou can now move again, thanks for your cooperation :)
-//deadmessage
+##deadmessage
 dead.countdown=§fYou will get kicked in §e%s seconds§f.
-//clearlag
+##clearlag
 clearlag.countdown=§cClearlag>> §fClearing Items in §e%s seconds§f.
 clearlag.finish=§cClearlag>> §eItems §fwere cleared.
-//delayedstart
+##delayedstart
 delayedstart.info=§aWalk on the pressure plate to get a delayed start.
-//kills
+##kills
 ownkills.amount=§bYour Kills: §f%s
-//teamsystem ids
+##teamsystem ids
 team.can.join=§aYou joined Team §e%s§a.
 team.cant.join=§cThe team is already full.
 team.leave=§cYou left the team.
-//perks
+##perks
 perk.default.select=§fYou selected the %s §r[§eDefault§r] particles.
 perk.vip.select=§dYou selected the %s §r[§6VIP§r] particles.
 perk.no.permission=§cFor this particles you need the §6VIP §crank.
-//vip messages
+##vip messages
 vip.cant.vote=§c2 §6VIP §cplayers already added 2 scenarios to the game.
 vip.joined=§dA §lVIP §r§djoined the game.
 vip.scenario.vote=§6You can now add 1 Scenario to the game.
@@ -199,12 +199,12 @@ vip.scenario.8=§fBow§e=Bowless
 vip.scenario.9=§fFishing Rod§e=Rodless
 vip.voting.finished=§a§lYou succesfully added 1 scenario to the game.
 vip.vote.announce=§dA §6§lVIP §r§dadded the scenario §6%s §dto the game!
-//scatterposition
+##scatterposition
 scatter.choose=§dYou have chosen to spawn near §6%s §don the map.
 scatter.info=§4Cause of a §d§lVIP §r§4in your team, your scatterposition is set.
-//spectate
+##spectate
 spectate.message=§eYou are now spectating the uhc and not visible for other players.
-//border
+##border
 border.countdown.750=§cBorder>> §eBordershrink §fto §e750 §fin §e%s seconds§f.
 border.countdown.500=§cBorder>> §eBordershrink §fto §e500 §fin §e%s seconds§f.
 border.countdown.250=§cBorder>> §eBordershrink §fto §e250 §fin §e%s seconds§f.

@@ -12,7 +12,7 @@
             "description": "§c§lby MZLP",
             "type": "data",
             "uuid": "fa6e90c8-c925-460f-8155-c8a60b753caa",
-            "version": [0, 0, 1]
+            "version": [1, 0, 0]
         }
     ],
     "dependencies": [

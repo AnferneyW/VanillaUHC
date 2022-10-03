@@ -2,7 +2,7 @@ execute @p[tag=mainhost] ~ ~ ~ setblock 0 103 0 element_0
 execute @p[tag=mainhost] ~ ~ ~ setblock 0 103 0 air 0 destroy
 #ist aus
 execute @p[tag=mainhost,scores={edu_edition=0}] ~ ~ ~ scoreboard players set @p interrupt 1
-execute @p[tag=mainhost,scores={edu_edition=0,interrupt=1}] ~ ~ ~ replaceitem entity @p slot.hotbar 4 netherstar
+execute @p[tag=mainhost,scores={edu_edition=0,interrupt=1}] ~ ~ ~ replaceitem entity @p slot.hotbar 4 nether_star
 #ist an
 execute @p[tag=mainhost] ~ ~ ~ execute @e[type=item,name="Unbekanntes Element"] ~ ~ ~ scoreboard players set @p edu_edition 1
 execute @p[tag=mainhost] ~ ~ ~ execute @e[type=item,name="Unbekanntes Element"] ~ ~ ~ scoreboard players set @p interrupt 0

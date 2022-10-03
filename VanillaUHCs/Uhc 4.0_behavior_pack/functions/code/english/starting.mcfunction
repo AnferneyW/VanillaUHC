@@ -73,7 +73,7 @@ execute @s[tag=mainhost,scores={starting_timer=591}] ~ ~ ~ clear @a
 execute @s[tag=mainhost,scores={starting_timer=591}] ~ ~ ~ kill @e[type=!player]
 execute @s[tag=mainhost,scores={starting_timer=591,teamsize=2..5}] ~ ~ ~ scoreboard objectives setdisplay list team
 #rankedanimation
-execute @s[tag=mainhost,scores={starting_timer=595,ranked=1..2}] ~ ~ ~ replaceitem entity @a[tag=playing] slot.weapon.offhand 1 totem
+execute @s[tag=mainhost,scores={starting_timer=595,ranked=1..2}] ~ ~ ~ replaceitem entity @a[tag=playing] slot.weapon.offhand 1 totem_of_undying
 execute @s[tag=mainhost,scores={starting_timer=595,ranked=1..2}] ~ ~ ~ effect @a[tag=playing] instant_damage 1 255 true
 execute @s[tag=mainhost,scores={starting_timer=595,ranked=1..2}] ~ ~ ~ titleraw @a subtitle {"rawtext":[{"translate":"scatter.players"}]}
 execute @s[tag=mainhost,scores={starting_timer=595,ranked=0..1}] ~ ~ ~ title @a title §a§lUHC 4.0
@@ -171,7 +171,7 @@ execute @s[tag=mainhost,scores={starting_timer=686}] ~ ~ ~ scoreboard players se
 execute @s[tag=mainhost,scores={starting_timer=686}] ~ ~ ~ scoreboard players set "§eBorder: §f1000" uhc -1
 execute @s[tag=mainhost,scores={starting_timer=686}] ~ ~ ~ scoreboard players set "§eAlive Players:" uhc 1
 execute @s[tag=mainhost,scores={starting_timer=687}] ~ ~ ~ tellraw @a {"rawtext":[{"translate":"game.start", "with":["3"]}]}
-execute @s[tag=mainhost,scores={starting_timer=688}] ~ ~ ~ scoreboard objectives setdisplay belowname kills
+execute @s[tag=mainhost,scores={starting_timer=688}] ~ ~ ~ scoreboard objectives setdisplay below_name kills
 execute @s[tag=mainhost,scores={starting_timer=688}] ~ ~ ~ tellraw @a {"rawtext":[{"translate":"game.start", "with":["2"]}]}
 execute @s[tag=mainhost,scores={starting_timer=688}] ~ ~ ~ clear @a[tag=playing]
 execute @s[tag=mainhost,scores={starting_timer=688}] ~ ~ ~ execute @a[tag=playing] ~ ~ ~ kill @e[type=item]

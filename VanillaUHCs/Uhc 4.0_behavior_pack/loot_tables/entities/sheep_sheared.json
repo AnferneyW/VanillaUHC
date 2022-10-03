@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "item",
-					"name": "minecraft:muttoncooked",
+					"name": "minecraft:cooked_mutton",
 					"weight": 1,
 					"functions": [
 						{

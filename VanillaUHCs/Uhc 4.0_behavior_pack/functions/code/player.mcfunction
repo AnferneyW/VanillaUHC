@@ -2,12 +2,8 @@
 execute @s[tag=mainhost,scores={ranked=0..1}] ~ ~ ~ replaceitem entity @a[tag=!mainhost,tag=team,tag=!voting] slot.hotbar 4 barrier
 #teamler
 tag MZLP add teamler
-tag yRess7 add teamler
-tag Kleksiii add teamler
 tag lifeisagame15 add teamler
-tag raichubabayt add teamler
-tag zMultiii add teamler
-tag KardoffelQreq add teamler
+tag p0tinq add teamler
 #vip
 execute @s[tag=mainhost,scores={ranked=0..1}] ~ ~ ~ function code/vip
 #boots und join

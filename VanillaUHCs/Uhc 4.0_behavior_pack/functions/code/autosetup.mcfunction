@@ -7,7 +7,7 @@ execute @s[tag=mainhost,scores={setup_process=16}] ~ ~ ~ kill @e[type=!player]
 #gamerules
 execute @s[tag=mainhost,scores={setup_process=24}] ~ ~ ~ gamerule falldamage false
 execute @s[tag=mainhost,scores={setup_process=24}] ~ ~ ~ gamerule commandblockoutput false
-execute @s[tag=mainhost,scores={setup_process=25}] ~ ~ ~ gamerule doInsomnia false
+execute @s[tag=mainhost,scores={setup_process=25}] ~ ~ ~ gamerule doinsomnia false 
 execute @s[tag=mainhost,scores={setup_process=25}] ~ ~ ~ gamerule doimmediaterespawn true
 execute @s[tag=mainhost,scores={setup_process=26}] ~ ~ ~ gamerule doweathercycle false
 execute @s[tag=mainhost,scores={setup_process=26}] ~ ~ ~ gamerule naturalregeneration false
@@ -69,7 +69,7 @@ execute @s[tag=mainhost,scores={setup_process=535}] ~ ~ ~ setblock 0 103 0 iron_
 execute @s[tag=mainhost,scores={setup_process=538}] ~ ~ ~ setblock 0 103 0 air 0 destroy
 execute @s[tag=mainhost,scores={setup_process=540}] ~ ~ ~ execute @e[type=item,name=Eisenerz] ~ ~ ~ scoreboard players set @p hostlang 2
 execute @s[tag=mainhost,scores={setup_process=540}] ~ ~ ~ execute @e[type=item,name="Raw Iron"] ~ ~ ~ scoreboard players set @p hostlang 1
-execute @s[tag=mainhost,scores={setup_process=543},hostlang=1..2] ~ ~ ~ kill @e[type=item]
+execute @s[tag=mainhost,scores={setup_process=543}] ~ ~ ~ kill @e[type=item]
 tellraw @s[tag=mainhost,scores={setup_process=543,hostlang=1}] {"rawtext":[{"translate":"setup.progress.language.avaible"}]}
 tellraw @s[tag=mainhost,scores={setup_process=543,hostlang=2}] {"rawtext":[{"text":"§4§lChange the language to english_US and create the world again."}]}
 tellraw @s[tag=mainhost,scores={setup_process=543,hostlang=1}] {"rawtext":[{"translate":"setup.progress.finish"}]}

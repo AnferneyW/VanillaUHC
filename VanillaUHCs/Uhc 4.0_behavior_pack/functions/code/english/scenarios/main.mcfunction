@@ -5,7 +5,7 @@ execute @s[tag=mainhost,scores={vanilla=1,ruler=6}] ~ ~ ~ function code/english/
 #banned items
 execute @s[tag=mainhost,scores={nether=1,ruler=7}] ~ ~ ~ function code/english/scenarios/nether
 execute @s[tag=mainhost,scores={hasteyboys=1,ruler=7}] ~ ~ ~ clear @a grindstone
-execute @s[tag=mainhost,scores={ruler=7}] ~ ~ ~ clear @a totem
+execute @s[tag=mainhost,scores={ruler=7}] ~ ~ ~ clear @a totem_of_undying
 #oresscenarios gold und iron
 execute @s[tag=mainhost,scores={doubleores=0}] ~ ~ ~ function code/english/scenarios/orescenarios/cutclean
 execute @s[tag=mainhost,scores={doubleores=1}] ~ ~ ~ function code/english/scenarios/orescenarios/ccdoubleores
@@ -28,7 +28,7 @@ execute @s[tag=mainhost,scores={nether=0,ruler=7}] ~ ~ ~ clear @a[tag=playing] f
 execute @s[tag=mainhost,scores={strength=0,ruler=7}] ~ ~ ~ function code/english/scenarios/banneditems/strength
 execute @s[tag=mainhost,scores={invisibility=0,ruler=7}] ~ ~ ~ function code/english/scenarios/banneditems/invisibility
 #notchapples
-execute @s[tag=mainhost,scores={notchapples=0,ruler=7}] ~ ~ ~ clear @a[tag=playing] appleenchanted
+execute @s[tag=mainhost,scores={notchapples=0,ruler=7}] ~ ~ ~ clear @a[tag=playing] enchanted_golden_apple
 #bowless
 execute @s[tag=mainhost,scores={bowless=1,ruler=7}] ~ ~ ~ clear @a[tag=playing] bow
 #rodless
