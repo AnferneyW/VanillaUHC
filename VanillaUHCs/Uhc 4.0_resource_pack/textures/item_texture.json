@@ -1,0 +1,94 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "team_eggs": {
+      "textures": [
+        "textures/items/spawn_egg_team", //1
+		"textures/items/spawn_egg_team", //2
+		"textures/items/spawn_egg_team", //3
+		"textures/items/spawn_egg_team", //4
+		"textures/items/spawn_egg_team", //5
+		"textures/items/spawn_egg_team", //6
+		"textures/items/spawn_egg_team", //7
+		"textures/items/spawn_egg_team", //8
+		"textures/items/spawn_egg_team", //9
+		"textures/items/spawn_egg_team", //10
+		"textures/items/spawn_egg_team", //11
+		"textures/items/spawn_egg_team", //12
+		"textures/items/spawn_egg_team", //13
+		"textures/items/spawn_egg_team", //14
+		"textures/items/spawn_egg_team"  //15
+      ]
+    },
+    "golden_head": {
+      "textures": "textures/items/apple_golden"
+    },
+    "dead": {
+      "textures": "textures/items/dead"
+    },
+    "perk": {
+      "textures": "textures/items/nether_star"
+    },
+    "slot": {
+      "textures": "textures/empty"
+    },
+    "ban": {
+      "textures": "textures/ui/anvil_icon"
+    },
+    "freeze": {
+      "textures": "textures/items/snowball"
+    },
+    "unfreeze": {
+      "textures": "textures/items/magma_cream"
+    },
+    "selected": {
+      "textures": "textures/ui/check"
+    },
+    "notselected": {
+      "textures": "textures/ui/crossout"
+    },
+    "orecount": {
+      "textures": "textures/ui/magnifyingGlass"
+    },
+    "levelcount": {
+      "textures": "textures/items/experience_bottle"
+    },
+    "banbutton": {
+      "textures": "textures/ui/smithing_icon"
+    },
+    "anydeskmsg": {
+      "textures": "textures/ui/invite_hover"
+    },
+    "screenshotmsg": {
+      "textures": "textures/ui/invite_hover"
+    },
+    "reason": {
+      "textures": "textures/items/paper"
+    },
+    "refreshfocus": {
+      "textures": "textures/ui/refresh"
+    },
+    "addfocus": {
+      "textures": "textures/ui/color_plus"
+    },
+    "cancel": {
+      "textures": "textures/ui/crossout"
+    },
+    "confirm": {
+      "textures": "textures/ui/check"
+    },
+    "tournament": {
+      "textures": "textures/items/diamond"
+    },
+    "randomtp": {
+      "textures": "textures/items/ender_pearl"
+    },
+    "clearlag": {
+      "textures": "textures/items/glowstone_dust"
+    },
+    "head": {
+      "textures": "textures/items/head"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+#actionbar
+title @a[scores={team=1}] actionbar §aYour team: §f@a[scores={team=1}]
+title @a[scores={team=2}] actionbar §aYour team: §f@a[scores={team=2}]
+title @a[scores={team=3}] actionbar §aYour team: §f@a[scores={team=3}]
+title @a[scores={team=4}] actionbar §aYour team: §f@a[scores={team=4}]
+title @a[scores={team=5}] actionbar §aYour team: §f@a[scores={team=5}]
+title @a[scores={team=6}] actionbar §aYour team: §f@a[scores={team=6}]
+title @a[scores={team=7}] actionbar §aYour team: §f@a[scores={team=7}]
+title @a[scores={team=8}] actionbar §aYour team: §f@a[scores={team=8}]
+title @a[scores={team=9}] actionbar §aYour team: §f@a[scores={team=9}]
+title @a[scores={team=10}] actionbar §aYour team: §f@a[scores={team=10}]
+title @a[scores={team=11}] actionbar §aYour team: §f@a[scores={team=11}]

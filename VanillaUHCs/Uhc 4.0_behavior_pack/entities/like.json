@@ -1,0 +1,148 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "team:like",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    
+    "component_groups": {
+      "retrieve_cape": {
+        "minecraft:is_charged": {
+        }
+      },
+      "kill": {
+        "minecraft:despawn": {
+          "remove_child_entities": true
+        }
+      }
+    },
+    
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "player" ]
+      },
+      "minecraft:nameable": {
+        "alwaysShow": true,
+        "allowNameTagRenaming": true
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0,
+        "breathesWater": true
+      },
+      "minecraft:health": {
+        "value": 420,
+        "max": 420
+      },
+      "minecraft:damage_sensor": [
+        {
+          "cause": "all",
+          "deals_damage": false
+        }
+      ],
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+	  "minecraft:pushable": {
+		"is_pushable": false,
+		"is_pushable_by_piston": false
+	  },	
+      "minecraft:loot": {
+        "table": "loot_tables/team.json"
+      },
+      "minecraft:movement": {
+        "value": 0,
+        "max": 0
+      },
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "avoid_sun": false,
+        "avoid_water": true
+      },
+      "minecraft:movement.basic": {
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:interact": [
+        {
+          "on_interact": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                },
+                {
+                  "test": "has_equipment",
+                  "domain": "hand",
+                  "subject": "other",
+                  "value": "barrier"
+                }
+              ]
+            },
+            "event": "kill"
+          },
+          "interact_text": "Remove the entity!"
+        },
+        {
+          "on_interact": {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "has_component",
+                  "subject": "self",
+                  "operator": "!=",
+                  "value": "minecraft:is_charged"
+                }
+              ],
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                },
+                {
+                  "test": "has_equipment",
+                  "domain": "hand",
+                  "subject": "other",
+                  "value": "banner"
+                }
+              ]
+            },
+            "event": "give_cape"
+          },
+          "interact_text": "Enquip the entity cape!"
+        }
+      ],
+      "minecraft:knockback_resistance": {
+        "value": 1
+      },
+      "minecraft:physics": {
+      }
+    },
+
+    "events": {
+      "give_cape": {
+        "add": {
+          "component_groups": [
+            "retrieve_cape"
+          ]
+        }
+      },
+      "kill": {
+        "add": {
+          "component_groups": [
+            "kill"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "format_version":"1.8.0",
+  "render_controllers": {
+    "controller.render.cape": {
+      "geometry": "Geometry.cape",
+      "materials": [{"*":"Material.cape"}],
+      "textures": ["Texture.cape"],
+      "part_visibility": [{"*":"query.is_powered"}]
+    }
+  }
+}

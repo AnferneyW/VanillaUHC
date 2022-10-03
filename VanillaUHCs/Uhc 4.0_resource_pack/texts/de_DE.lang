@@ -1,0 +1,176 @@
+//only german and english
+//host
+setup.progress.begin=§a§lWird aufgesetzt...
+setup.progress.load.spawn=§aSpawnbereich wird geladen...
+setup.progress.optimated.spawn=Spawn wird optimiert (Wasser entfernen)
+setup.progress.spawned.lobby=§aLobby ist erschienen bei 0 0
+setup.interrupt.experimental=§cWerf Gegenstand erneut, um benutzerdefinierte Gegenstände zu testen.
+setup.progress.experimental.false=§cBenutzderdefinierte Gegenstände sind nicht aktiviert.
+setup.progress.experimental.true=§aBenutzerdefinierte Gegenstände sind aktiviert.
+setup.interrupt.education=§cWerf Gegenstand erneut, um Aktivierung von Education Edition zu testen.
+setup.progress.education.false=§cEducation Edition ist deaktiviert.
+setup.progress.education.true=§aEducation Edition ist deaktiviert.
+setup.progress.load.structure=§e1.§fÖffne den Structure Block und änder den Modus von Speichern zu Laden.
+setup.progress.load.structure2=§e2.§fSchreibe §eload §fin das Feld für den §eNamen der Struktur §fund betätige den §eLaden-Knopf§f.
+setup.progress.check.lang=§aÜberprüfen ob Sprache verfügbar ist...
+//
+//4IDs nicht notwendig, da 
+//Deutsch nicht verfügbar ist
+//
+//inteam ids
+spectate.activate.team=§aDu bist nun im Spectator mode. Diese Einstellung §ckann nicht mehr, §a10 Sekunden vor dem Spiel geändert werden
+spectate.deactivate.team=§aDu wurdest als normaler Spieler registriert.
+permission.denied=§4Du hast keine Berechtigungen diesen Command auszuführen.
+host.instruction=§cBleibe in der Lobby bis sie komplett verschwunden ist.
+vanish.off=§aDu bist nun für andere Spieler sichtbar und kannst Items aufsammeln.
+fixed.spawn=§aDie Spawnfläche wurde erneuert und optimiert.
+open.banmenu=§cDas Bannmenü in deinem Inventar wurde erstellt.
+ore.examination=§dÜberprüfung der Spieler %s §dcount
+banfocus.note=§cNotiz: §fJede Aktion die durchgeführt wird gilt §efür alle Spieler die im Bannfokus sind! Es ist möglich, dass ein anderer Spectator ebenfalls das Banmemu sehen kann  und ebenfalls grade zur selben Zeit den Spieler untersucht (§e/function givemenuperm§f)
+banmenu.message=§fDiese §eNachricht §fwurde an alle die im §eBannFocus stehen geschickt§f.
+banmenu.addfocus=§fDu hast §eeinen weiteren Spieler §fzum Bannfokus hinzugefügt. §cNotiz: §fNur Spieler die  §egefreezed sind §fkönnen im Fokus sein .
+banmenu.refreshfocus=§Alle die gefreezed waren wurden entfernt und ein neuer Spieler wurde  §egefreezed§f.
+list.alive=§aLebende Spieler:
+list.freezed=§cGefreezed:
+list.spectator=§bSpectator:
+list.other=§fOther:
+help1=§eFixspawn>> §fSollte der Spawn geschädigt oder gegrieft worden sein kannst du es mit einem command reparieren.
+help2=§eGamemode>> §fEntfernt dein Vanish und du bekommst die Fähigkeit Items aufzusammeln.
+help3=§eGivehost>> §fSollte nur gemacht werden nachdem das Spiel gestartet hat. Du musst den anderen Host den Tag §ebecomehost§f geben.
+help4=§eList>> §fKlassifizier jeden Spieler im Host um einen guten Überblick zu haben.
+help5=§eRespawn>> §fRespawnt einen Spieler genau an der Stelle wo du grade stehst. §cNotiz: §fDer Spieler muss sich auf der Position §e0 214 0§f befinden um respawnt zu werden.
+help6=§eSetup>>§fNur bei einer neuen Welt ausführen.
+help7=§eSpectate>>§fJeder der den Command ausführt kommt automatisch ins Spectatormode. Kann auch wieder dazu genutzt werden um Vanish zu werden.
+help8=§eStart>> §fSetzt den Starttimer auf 1 Minute
+help9=§eWinner>> §fErmittelt die kills der Letzten Überlebenden und die Struktur.
+//
+//all languages
+//
+//countdown
+start.countdown=Startet §ein 10mins
+drop.choose.message=§aDrop das Item um ein Team zu wählen.
+close.setting.team=§cIn %s Sekunden kannst du kein Team mehr wählen!
+close.setting.team.finish=§eDie Teams wurden gespeichert. §aCrossteaming ist erlaubt.
+close.setting.team.finish2=§eDie Teams wurden gespeichert. §c§lCrossteaming ist nicht erlaubt
+logout.warning=§cVerlasse das Spiel während des Scattern nicht. Ansonsten kann dies dein Spielerlebenis zerstören.
+scatter.players=§eSpieler werden auf der Map verteilt
+game.start=Das UHC startet in §e%s §fSekunden.
+activate.scenarios=§aAlle Szenarien werden aktiviert...
+game.started=§eSpiel §fstartet!
+//changed default messages
+commands.message.display.incoming=§o[MSG] %2$s
+multiplayer.player.joined=%s hat das UHC beigetreten.
+multiplayer.player.left=%s hat das UHC verlassen.
+//uhchelp
+uhchelp.title=§fFalls du irgendwelche §eFragen/Probleme §fhast, kontaktiere §e@RealMZLP §fauf Twitter.
+//config1
+config1.1=§a§lRush §6Config:
+config1.2=§f-------------------
+config1.3=§eFinal Heal §fbei 10 Minuten
+config1.4=§ePVP an §fbei 20 Minuten
+config1.5=§eBorder 750 §fbei 30 Minuten
+config1.6=§eBorder 500 §fbei 35 Minuten
+config1.7=§eBorder 250 §fbei 40 Minuten
+config1.8=§eBorder 100 §fbei 45 Minuten
+config1.9=§eEndborder 50 §fbei 50 Minuten
+//config2
+config2.1=§a§lUHC 3.0 §6Config:
+config2.2=§f-------------------
+config2.3=§e1. Heal §fbei 10 Minuten
+config2.4=§eFinal Heal §fbei 20 Minuten
+config2.5=§ePVP an §fbei 20 Minuten
+config2.6=§eBorder 750 §fbei 45 Minuten
+config2.7=§eBorder 500 §fbei 50 Minuten
+config2.8=§eBorder 250 §fbei 55 Minuten
+config2.9=§eBorder 100 §fbei 60 Minuten
+config2.10=§eEndborder 50 §fbei 65 Minuten
+//config3
+config3.1=§a§lUHC 3.0 (Ein Heal) §6Config:
+config3.2=§f-------------------
+config3.3=§eFinal Heal §fbei 10 Minuten
+config3.4=§ePVP an §fbei 20 Minuten
+config3.5=§eBorder 750 §fbei 45 Minuten
+config3.6=§eBorder 500 §fbei 50 Minuten
+config3.7=§eBorder 250 §fbei 55 Minuten
+config3.8=§eBorder 100 §fbei 60 Minuten
+config3.9=§eEndborder 50 §fbei 65 Minuten
+//config4
+config4.1=§6§l Paradox Config:
+config4.2=§f-------------------
+config4.3=§eFinal Heal §fbei 10 Minuten
+config4.4=§ePVP an §fbei 20 Minuten
+config4.5=§eBorder 750 §fbei 40 Minuten
+config4.6=§eBorder 500 §fbei 50 Minuten
+config4.7=§eBorder 250 §fbei 55 Minuten
+config4.8=§eBorder 100 §fbei 60 Minuten
+config4.9=§eEndborder 50 §fbei 65 Minuten
+//config other settings
+config.developed=§cProgrammiert von MZLP
+config.settings=§eEinstellungen: 
+config.nether.on=§eNether: §fAN
+config.nether.off=§eNether: §fAUS
+config.strength.on=§eStärke: §fAN
+config.strength.off=§eStärke: §fAUS
+config.invisibility.on=§eUnsichtbarkeit: §fAN
+config.invisibility.off=§eUnsichtbarkeit: §fAUS
+config.ipvp.on=§eIPVP: §fAN
+config.ipvp.off=§eIPVP: §fAUS
+config.stalking.on=§eStalking: §fAN
+config.stalking.off=§eStalking: §fAUS
+config.notchapples.on=§eNotch Apfel: §fAN
+config.notchapples.off=§eNotch Apfel: §fAUS
+config.goldenheads.on=§eGoldenheads: §fAN
+config.goldenheads.off=§eGoldenheads: §fAUS
+config.ffa=§eTeamgröße: §fFFA
+config.to2=§eTeamgröße: §fTO2
+config.to3=§eTeamgröße: §fTO3
+config.to4=§eTeamgröße: §fTO4
+config.to5=§eTeamgröße: §fTO5
+config.scenarios=Szenarien:
+//freeze messages
+freeze.info1=§fDu wurdest verdächtigt auf §exraying§f. §eSchick und bitte ein Screen in #screenshots on our discord Server. Du darfst gerne das Spiel verlassen um den Screen zusenden, jedoch darfst du nicht wieder joinen bevor du es geschickt hast.
+freeze.info2=§fDu wurdest uns aufgrund  §echeating§f verdächtigt. §fWenn du ein §eWin10 §fSpieler bist musst du ein Ticket eröffnen und uns dein Anydesk Code schicken. Solltest du ein §emobile §fsein musst du ein Screenshot von deinen zuletzt geöffneten §eapps §fschicken. 
+freeze.finish=§fDu kannst dich nun wieder bewegen, danke für deine Kooperation :)
+//deadmessage
+dead.countdown=§fDu wirst in §e%s Sekunden §fgekickt.
+//clearlag
+clearlag.countdown=§cClearlag>> §fItems auf dem Boden werden in §e%s Sekunden gelöscht§f.
+clearlag.finish=§cClearlag>> §eItems §fwurden gelöscht.
+//delayedstart
+delayedstart.info=§aLauf auf die Druckplatte um einen Delaystart zu bekommen!
+//kills
+ownkills.amount=§bDeine Kills: §f%s
+//teamsystem ids
+team.can.join=§aDu bist Team §e%s §abeigetreten
+team.cant.join=§cDieses Team ist bereits voll.
+team.leave=§cDu hast das Team verlassen.
+//perks
+perk.default.select=§fDu hast die Partikel %s §r[§eDefault§r] ausgewählt.
+perk.vip.select=§dDu hast die %s §r[§6VIP§r] Partikel ausgewählt.
+perk.no.permission=§cFür diese Partikel benötigst du den §6VIP §cRang.
+//vip messages
+vip.cant.vote=§c2 §6VIP §cSpieler haben bereits 2 Szenarien zum UHC hinzugefügt.
+vip.joined=§dEin §lVIP §r§dist dem UHC beigetreten!
+vip.scenario.vote=§6Du kannst nun ein Szenario zum UHC hinzufügen.
+vip.scenario.1=§fEichensetzling§e=Vanilla+
+vip.scenario.2=§fZombiekopf§e=Peaceful
+vip.scenario.3=§fDiamantschuhe§e=NoFall
+vip.scenario.4=§fFeuerzeug§e=Fireless
+vip.scenario.5=§fGoldene Spitzhacke§e=Hasteyboys
+vip.scenario.6=§fTruhe§e=Timebomb
+vip.scenario.7=§fDiamantschwert§e=NoClean
+vip.scenario.8=§fBogen§e=Bowless
+vip.scenario.9=§fAngel§e=Rodless
+vip.voting.finished=§a§lDu hast erfolgreich ein Szenario zum Spiel hinzugefügt!
+vip.vote.announce=§dEin §6§lVIP §r§dhat das Szenario §6%s §dzum UHC hinzugefügt!
+//scatterposition
+scatter.choose=§dDu hast ausgewählt in der Nähe von §6%s §dauf der Map zu spawnen.
+scatter.info=§4Aufgrund eines §d§lVIP §r§4in deinem Team, ist deine Scatterposition besimmt.
+//spectate
+spectate.message=§eDu spectates das UHC nun und bist für andere Spieler unsichtbar.
+//border
+border.countdown.750=§cBorder>> §eBorder §fverkleinert sich zu §e750 §fin §e%s Sekunden§f.
+border.countdown.500=§cBorder>> §eBorder §fverkleinert sich zu §e500 §fin §e%s Sekunden§f.
+border.countdown.250=§cBorder>> §eBorder §fverkleinert sich zu §e250 §fin §e%s Sekunden§f.
+border.countdown.100=§cBorder>> §eBorder §fverkleinert sich zu §e100 §fin §e%s Sekunden§f.
+border.countdown.50=§cBorder>> §eBorder §fverkleinert sich zu §e50 §fin §e%s Sekunden§f.

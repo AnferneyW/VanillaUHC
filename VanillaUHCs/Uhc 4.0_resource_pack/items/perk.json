@@ -1,0 +1,14 @@
+{
+"format_version": "1.12.0",
+"minecraft:item": {
+"description": {
+"identifier": "uhc:perk",
+"category": "Nature"
+},
+
+"components": {
+"minecraft:icon": "perk",
+"minecraft:render_offsets": "miscellaneous"
+}
+}
+}

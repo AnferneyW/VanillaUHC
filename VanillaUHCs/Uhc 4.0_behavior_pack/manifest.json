@@ -1,0 +1,24 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "§c§lby MZLP",
+        "name": "§d§lVanillaUHCs 4.0",
+        "uuid": "759754f6-5c93-4798-9a93-8df3564f69cc",
+        "version": [ 4, 0, 0 ],
+        "min_engine_version": [ 1, 14, 0 ]
+    },
+    "modules": [
+        {
+            "description": "§c§lby MZLP",
+            "type": "data",
+            "uuid": "fa6e90c8-c925-460f-8155-c8a60b753caa",
+            "version": [0, 0, 1]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "d1a6fb2e-0dd2-4cfb-8eb1-e5ebca78ef6f",
+            "version": [4, 0, 0]
+        }
+    ]
+}

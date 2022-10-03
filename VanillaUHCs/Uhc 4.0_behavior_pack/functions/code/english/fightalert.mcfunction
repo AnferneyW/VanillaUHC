@@ -1,0 +1,2 @@
+execute @a[x=0,y=214,z=0,rm=10,tag=playing] ~ ~ ~ execute @p[tag=playing,rm=3,r=6,tag=!messaged,tag=!vanished] ~ ~ ~ tell @a[tag=vanished] §c§lis now fighting!
+execute @a[x=0,y=214,z=0,rm=10,tag=playing] ~ ~ ~ execute @p[tag=playing,rm=3,r=6,tag=!vanished] ~ ~ ~ tag @s add messaged

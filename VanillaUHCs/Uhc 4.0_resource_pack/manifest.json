@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "§c§lby MZLP",
+        "name": "§d§lVanillaUHCs 4.0",
+        "uuid": "d1a6fb2e-0dd2-4cfb-8eb1-e5ebca78ef6f",
+        "version": [4, 0, 0],
+        "min_engine_version": [ 1, 14, 0 ]
+    },
+    "modules": [
+        {
+            "description": "§c§lby MZLP",
+            "type": "resources",
+            "uuid": "743f6949-53be-44b6-b326-398005028819",
+            "version": [0, 2, 0]
+        }
+    ]
+}

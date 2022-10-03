@@ -1,0 +1,14 @@
+{
+"format_version": "1.12.0",
+"minecraft:item": {
+"description": {
+"identifier": "uhc:levelcount",
+"category": "Nature"
+},
+
+"components": {
+"minecraft:icon": "levelcount",
+"minecraft:render_offsets": "miscellaneous"
+}
+}
+}

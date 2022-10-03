@@ -1,0 +1,9 @@
+tellraw @s {"rawtext":[{"translate":"help1"}]}
+tellraw @s {"rawtext":[{"translate":"help2"}]}
+tellraw @s {"rawtext":[{"translate":"help3"}]}
+tellraw @s {"rawtext":[{"translate":"help4"}]}
+tellraw @s {"rawtext":[{"translate":"help5"}]}
+tellraw @s {"rawtext":[{"translate":"help6"}]}
+tellraw @s {"rawtext":[{"translate":"help7"}]}
+tellraw @s {"rawtext":[{"translate":"help8"}]}
+tellraw @s {"rawtext":[{"translate":"help9"}]}
