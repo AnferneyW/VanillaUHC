@@ -102,3 +102,4 @@ gamemode c @s
 give @s repeating_command_block
 tellraw @s {"rawtext":[{"text":"§e1. §fPlace the commandblock right underneath your feet."}]}
 tellraw @s {"rawtext":[{"text":"§e2. §fWrite §cfunction code/taskmanager §fin the commandblock and set it to always active."}]}
+#test
