@@ -33,30 +33,6 @@
                   "variable.x_bob = Math.sin(query.life_time * 76.776372) * 2.865;"
                ]
             },
-            "animations": {
-               "humanoid_big_head": "animation.humanoid.big_head",
-               "look_at_target_default": "animation.humanoid.look_at_target.default",
-               "look_at_target_gliding": "animation.humanoid.look_at_target.gliding",
-               "look_at_target_swimming": "animation.humanoid.look_at_target.swimming",
-               "move": "animation.humanoid.move",
-               "riding.arms": "animation.humanoid.riding.arms",
-               "riding.legs": "animation.humanoid.riding.legs",
-               "holding": "animation.humanoid.holding",
-               "brandish_spear": "animation.humanoid.brandish_spear",
-               "charging": "animation.humanoid.charging",
-               "attack.rotations": "animation.humanoid.attack.rotations",
-               "sneaking": "animation.humanoid.sneaking",
-               "bob": "animation.humanoid.bob",
-               "damage_nearby_mobs": "animation.humanoid.damage_nearby_mobs",
-               "bow_and_arrow": "animation.humanoid.bow_and_arrow",
-               "swimming": "animation.humanoid.swimming",
-               "use_item_progress": "animation.humanoid.use_item_progress",
-               "cape_default": "animation.cape.default",
-               "cape_up": "animation.cape.up",
-               "cape_down": "animation.cape.down",
-               "cape_move": "animation.cape.move",
-               "cape_sprint": "animation.cape.sprint"
-            },
             "animation_controllers": [
                { "humanoid_baby_big_head": "controller.animation.humanoid.baby_big_head" },
                { "look_at_target": "controller.animation.humanoid.look_at_target" },
