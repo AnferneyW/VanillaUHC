@@ -71,10 +71,7 @@
                { "damage_nearby_mobs": "controller.animation.humanoid.damage_nearby_mobs" },
                { "bow_and_arrow": "controller.animation.humanoid.bow_and_arrow" },
                { "swimming": "controller.animation.humanoid.swimming" },
-               { "use_item_progress": "controller.animation.humanoid.use_item_progress" },
-               { "cape_default": "controller.animation.cape_default" },
-               { "cape_up": "controller.animation.cape.up" },
-               { "cape_sprint": "controller.animation.cape_sprint" }
+               { "use_item_progress": "controller.animation.humanoid.use_item_progress" }
             ],
          "render_controllers": [ "controller.render.mzlp", "controller.render.cape" ],
 			  "enable_attachables": true

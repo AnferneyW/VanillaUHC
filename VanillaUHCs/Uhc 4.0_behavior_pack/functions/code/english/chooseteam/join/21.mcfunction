@@ -11,4 +11,4 @@ tp @s 25 214 -6 facing 41 217 -15
 #design
 execute @e[type=hovertext:hovertext,scores={teamspaceleft=1..},name="§eTeam 21"] ~ ~ ~ execute @e[type=hovertext:marker,name="t21"] ~ ~ ~ clone 35 225 -15 35 226 -15 ~ ~-1 ~
 execute @e[type=hovertext:hovertext,scores={teamspaceleft=0},name="§eTeam 21"] ~ ~ ~ execute @e[type=hovertext:marker,name="t21"] ~ ~ ~ clone 35 225 -14 35 226 -14 ~ ~-1 ~
-tag @s remove joinprocesteam21
+tag @s remove joinprocessteam21

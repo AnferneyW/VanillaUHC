@@ -18,7 +18,6 @@ tag @a remove vip
 tag @a remove voted
 tag @a remove voting
 tag @a remove vjoined
-tag @a remove gotparticle
 tag @a remove positioned
 tag @a remove spread
 tag @a remove spectate

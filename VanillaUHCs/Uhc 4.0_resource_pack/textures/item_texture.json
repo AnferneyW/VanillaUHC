@@ -4,21 +4,21 @@
   "texture_data": {
     "team_eggs": {
       "textures": [
-        "textures/items/spawn_egg_team", //1
-		"textures/items/spawn_egg_team", //2
-		"textures/items/spawn_egg_team", //3
-		"textures/items/spawn_egg_team", //4
-		"textures/items/spawn_egg_team", //5
-		"textures/items/spawn_egg_team", //6
-		"textures/items/spawn_egg_team", //7
-		"textures/items/spawn_egg_team", //8
-		"textures/items/spawn_egg_team", //9
-		"textures/items/spawn_egg_team", //10
-		"textures/items/spawn_egg_team", //11
-		"textures/items/spawn_egg_team", //12
-		"textures/items/spawn_egg_team", //13
-		"textures/items/spawn_egg_team", //14
-		"textures/items/spawn_egg_team"  //15
+        "textures/items/spawn_egg_team",
+		"textures/items/spawn_egg_team", 
+		"textures/items/spawn_egg_team", 
+		"textures/items/spawn_egg_team", 
+		"textures/items/spawn_egg_team", 
+		"textures/items/spawn_egg_team", 
+		"textures/items/spawn_egg_team", 
+		"textures/items/spawn_egg_team", 
+		"textures/items/spawn_egg_team", 
+		"textures/items/spawn_egg_team", 
+		"textures/items/spawn_egg_team", 
+		"textures/items/spawn_egg_team", 
+		"textures/items/spawn_egg_team", 
+		"textures/items/spawn_egg_team", 
+		"textures/items/spawn_egg_team" 
       ]
     },
     "golden_head": {
@@ -58,10 +58,10 @@
       "textures": "textures/ui/smithing_icon"
     },
     "anydeskmsg": {
-      "textures": "textures/ui/invite_hover"
+      "textures": "textures/ui/infobulb"
     },
     "screenshotmsg": {
-      "textures": "textures/ui/invite_hover"
+      "textures": "textures/ui/infobulb"
     },
     "reason": {
       "textures": "textures/items/paper"

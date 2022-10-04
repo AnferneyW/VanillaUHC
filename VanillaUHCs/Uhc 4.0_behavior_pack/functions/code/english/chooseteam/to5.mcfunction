@@ -10,8 +10,8 @@ execute @a[tag=!team,tag=!joinprocessteam6,scores={teamspaceleft=1..}] ~ ~ ~ exe
 execute @a[tag=!team,tag=!joinprocessteam7,scores={teamspaceleft=1..}] ~ ~ ~ execute @e[type=hovertext:hovertext,name="§eTeam 7",r=1] ~ ~ ~ tag @p add joinprocessteam7
 execute @a[tag=!team,tag=!joinprocessteam8,scores={teamspaceleft=1..}] ~ ~ ~ execute @e[type=hovertext:hovertext,name="§eTeam 8",r=1] ~ ~ ~ tag @p add joinprocessteam8
 execute @a[tag=!team,tag=!joinprocessteam9,scores={teamspaceleft=1..}] ~ ~ ~ execute @e[type=hovertext:hovertext,name="§eTeam 9",r=1] ~ ~ ~ tag @p add joinprocessteam9
-execute @a[tag=!team,tag=!joinprocesteam10,scores={teamspaceleft=1..}] ~ ~ ~ execute @e[type=hovertext:hovertext,name="§eTeam 10",r=1] ~ ~ ~ tag @p add joinprocesteam10
-execute @a[tag=!team,tag=!joinprocesteam11,scores={teamspaceleft=1..}] ~ ~ ~ execute @e[type=hovertext:hovertext,name="§eTeam 11",r=1] ~ ~ ~ tag @p add joinprocesteam11
+execute @a[tag=!team,tag=!joinprocessteam10,scores={teamspaceleft=1..}] ~ ~ ~ execute @e[type=hovertext:hovertext,name="§eTeam 10",r=1] ~ ~ ~ tag @p add joinprocessteam10
+execute @a[tag=!team,tag=!joinprocessteam11,scores={teamspaceleft=1..}] ~ ~ ~ execute @e[type=hovertext:hovertext,name="§eTeam 11",r=1] ~ ~ ~ tag @p add joinprocessteam11
 execute @a[tag=!team,tag=joinprocessteam1,scores={teamspaceleft=1..}] ~ ~ ~ function code/english/chooseteam/join/1
 execute @a[tag=!team,tag=joinprocessteam2,scores={teamspaceleft=1..}] ~ ~ ~ function code/english/chooseteam/join/2
 execute @a[tag=!team,tag=joinprocessteam3,scores={teamspaceleft=1..}] ~ ~ ~ function code/english/chooseteam/join/3
@@ -21,8 +21,8 @@ execute @a[tag=!team,tag=joinprocessteam6,scores={teamspaceleft=1..}] ~ ~ ~ func
 execute @a[tag=!team,tag=joinprocessteam7,scores={teamspaceleft=1..}] ~ ~ ~ function code/english/chooseteam/join/7
 execute @a[tag=!team,tag=joinprocessteam8,scores={teamspaceleft=1..}] ~ ~ ~ function code/english/chooseteam/join/8
 execute @a[tag=!team,tag=joinprocessteam9,scores={teamspaceleft=1..}] ~ ~ ~ function code/english/chooseteam/join/9
-execute @a[tag=!team,tag=joinprocesteam10,scores={teamspaceleft=1..}] ~ ~ ~ function code/english/chooseteam/join/10
-execute @a[tag=!team,tag=joinprocesteam11,scores={teamspaceleft=1..}] ~ ~ ~ function code/english/chooseteam/join/11
+execute @a[tag=!team,tag=joinprocessteam10,scores={teamspaceleft=1..}] ~ ~ ~ function code/english/chooseteam/join/10
+execute @a[tag=!team,tag=joinprocessteam11,scores={teamspaceleft=1..}] ~ ~ ~ function code/english/chooseteam/join/11
 #voll
 execute @a[tag=!team,scores={teamspaceleft=0}] ~ ~ ~ tellraw @s {"rawtext":[{"translate":"team.cant.join"}]}
 execute @a[tag=!team,scores={teamspaceleft=0}] ~ ~ ~ playsound block.false_permissions @s

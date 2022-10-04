@@ -10,8 +10,7 @@
 
 	"components": {
 	  "minecraft:knockback_resistance": {
-		"value": 100,
-		"max": 100
+		"value": 1.0
 	  },
 	  "minecraft:scale": {
 		"value": 0.001
@@ -20,21 +19,16 @@
 		"family": ["inanimate","hovertext"]
 	  },
 	  "minecraft:nameable": {
-		"alwaysShow": true,
+		"always_show": true,
         "allow_name_tag_renaming": false
 	  },
 	  "minecraft:collision_box": {
-		"width": 0.001,
-		"height": 0.001
-	  },
-	  "minecraft:movement": {
-		"value": 0
-	  },
-	  "minecraft:movement.basic": {
+		"width": 0.0,
+		"height": 0.0
 	  },
 	  "minecraft:damage_sensor": {
 	    "triggers": {
-		  "cause": "any",
+		  "cause": "all",
 		  "deals_damage": false
 		}
 	  },

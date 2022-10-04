@@ -144,8 +144,6 @@
       }
     ]
   },
-
-  /////////////////////////  list ui
   "scoreboard_player_list": {
     "type": "stack_panel",
     "anchor_from": "top_left",
@@ -372,7 +370,7 @@
           ]
         }
       },
-      {  //bald
+      {  
         "score_panel": {
           "type": "panel",
           "size": [ "100%", "100%c" ],

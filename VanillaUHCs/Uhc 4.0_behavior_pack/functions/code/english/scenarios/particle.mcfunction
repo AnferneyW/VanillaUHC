@@ -1,4 +1,4 @@
-execute @s[tag=!gotparticles] ~ ~ ~ particle uhc:beziercurve ~ ~-1.1 ~
+execute @s[tag=!gotparticle] ~ ~ ~ particle uhc:beziercurve ~ ~-1.1 ~
 execute @s[scores={particle=1}] ~ ~ ~ particle uhc:beziercurve ~ ~-1.1 ~
 execute @s[scores={particle=2}] ~ ~ ~ particle uhc:expire_on_contact ~ ~-0.5 ~
 execute @s[scores={particle=3}] ~ ~ ~ particle uhc:colorcurve ~ ~-1 ~
