@@ -66,15 +66,6 @@
       "minecraft:movement": {
         "value": 0.1
       },
-<<<<<<< HEAD
-=======
-      "minecraft:behavior.knockback_roar": {
-        "duration": 0.1,
-        "knockback_height_cap": 1,
-        "knockback_vertical_strength": 10,
-        "knockback_filters": { "test": "has_damage", "subject": "target", "operator": "==", "value": "attack"}
-      },
->>>>>>> ee6f04b9bcbdc6f23c1fd29a82db22376310b167
       "minecraft:hurt_on_condition": {
         "damage_conditions": [
           {
@@ -142,7 +133,6 @@
           }
         ]
       },
-      "minecraft:scaffolding_climber": {},
       "minecraft:environment_sensor": {
         "triggers": {
           "filters": {
