@@ -66,12 +66,6 @@
       "minecraft:movement": {
         "value": 0.1
       },
-      "minecraft:behavior.knockback_roar": {
-        "duration": 0.1,
-        "knockback_height_cap": 1,
-        "knockback_vertical_strength": 10,
-        "knockback_filters": { "test": "has_damage", "subject": "target", "operator": "==", "value": "attack"}
-      },
       "minecraft:hurt_on_condition": {
         "damage_conditions": [
           {
