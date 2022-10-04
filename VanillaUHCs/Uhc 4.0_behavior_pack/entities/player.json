@@ -66,10 +66,10 @@
       "minecraft:movement": {
         "value": 0.1
       },
-      "minecraft:knockback_resistance": {
-        "value": -0.5,
-		  "min": -0.5,
-		  "max": -0.5
+      "minecraft:behavior.knockback_roar": {
+        "duration": 0.1,
+        "knockback_height_cap": 1,
+        "knockback_vertical_strength": 10
       },
       "minecraft:hurt_on_condition": {
         "damage_conditions": [
