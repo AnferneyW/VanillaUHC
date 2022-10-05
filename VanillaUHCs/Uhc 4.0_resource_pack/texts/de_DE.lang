@@ -19,6 +19,7 @@ setup.progress.check.lang=§aÜberprüfen ob Sprache verfügbar ist...
 ##Deutsch nicht verfügbar ist
 ##
 ##inteam ids
+host.display = §e%s§f/50 Players
 spectate.activate.team=§aDu bist nun im Spectator mode. Diese Einstellung §ckann nicht mehr, §a10 Sekunden vor dem Spiel geändert werden
 spectate.deactivate.team=§aDu wurdest als normaler Spieler registriert.
 permission.denied=§4Du hast keine Berechtigungen diesen Command auszuführen.
@@ -168,7 +169,7 @@ vip.vote.announce=§dEin §6§lVIP §r§dhat das Szenario §6%s §dzum UHC hinzu
 scatter.choose=§dDu hast ausgewählt in der Nähe von §6%s §dauf der Map zu spawnen.
 scatter.info=§4Aufgrund eines §d§lVIP §r§4in deinem Team, ist deine Scatterposition besimmt.
 ##spectate
-spectate.message=§eDu spectates das UHC nun und bist für andere Spieler unsichtbar.
+spectate.message=§eDu bist nun Zuschauer des UHCs und bist für andere Spieler unsichtbar.
 ##border
 border.countdown.750=§cBorder>> §eBorder §fverkleinert sich zu §e750 §fin §e%s Sekunden§f.
 border.countdown.500=§cBorder>> §eBorder §fverkleinert sich zu §e500 §fin §e%s Sekunden§f.

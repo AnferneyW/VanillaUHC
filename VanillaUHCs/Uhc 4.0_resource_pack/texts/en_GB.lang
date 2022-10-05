@@ -55,6 +55,7 @@ setup.progress.finish=§aThe automated setup is finished. Now you adjust the gam
 create.process.actionbar=§cDrop the item to choose.
 start.failed=§cThe game already started.
 ##inteam ids
+host.display = §e%s§f/50 Spieler
 spectate.activate.team=§aYou are now spectating the game. This setting can §cnot anymore §abe changed 10 seconds before the game will start!!!
 spectate.deactivate.team=§aYou are now registered as a normal player.
 permission.denied=§4You have no permission to execute this command.
