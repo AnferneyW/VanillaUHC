@@ -7,5 +7,5 @@ execute @a[tag=playing,scores={detect_diamond=1}] ~ ~ ~ kill @e[type=item,name="
 execute @a[tag=playing,scores={detect_diamond=1}] ~ ~ ~ kill @e[type=item,name="Chest",r=10]
 execute @a[tag=playing,scores={detect_diamond=1}] ~ ~ ~ scoreboard players add @s diamond_limit 1
 execute @a[tag=playing,scores={detect_diamond=1}] ~ ~ ~ tell @a[tag=vanished] §efound 1 §bDiamond!
-execute @a[tag=playing,scores={detect_diamond=1}] ~ ~ ~ effect @s wither 1 1 true
+execute @a[tag=playing,scores={detect_diamond=1}] ~ ~ ~ damage @s 1 magic
 execute @a[tag=playing,scores={detect_diamond=1}] ~ ~ ~ scoreboard players set @s detect_diamond 0
