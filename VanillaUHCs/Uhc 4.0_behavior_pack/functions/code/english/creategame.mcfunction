@@ -150,11 +150,11 @@ execute @s[tag=mainhost,scores={createprocess=5,nofall=1}] ~ ~ ~ execute @e[type
 execute @s[tag=mainhost,scores={createprocess=5,nofall=3}] ~ ~ ~ execute @e[type=item,name="Diamond Boots"] ~ ~ ~ kill @e[type=item]
 execute @s[tag=mainhost,scores={createprocess=5,nofall=3}] ~ ~ ~ scoreboard players set @p nofall 0
 #noclean
-execute @s[tag=mainhost,scores={createprocess=5,noclean=0}] ~ ~ ~ execute @e[type=item,name="Diamond Sword"] ~ ~ ~ scoreboard players set "-Noclean" countdown 2
+execute @s[tag=mainhost,scores={createprocess=5,noclean=0}] ~ ~ ~ execute @e[type=item,name="Diamond Sword"] ~ ~ ~ scoreboard players set "-NoClean" countdown 2
 execute @s[tag=mainhost,scores={createprocess=5,noclean=0}] ~ ~ ~ execute @e[type=item,name="Diamond Sword"] ~ ~ ~ scoreboard players set @p noclean 2
 execute @s[tag=mainhost,scores={createprocess=5,noclean=2}] ~ ~ ~ execute @e[type=item,name="Diamond Sword"] ~ ~ ~ kill @e[type=item]
 execute @s[tag=mainhost,scores={createprocess=5,noclean=2}] ~ ~ ~ scoreboard players set @p noclean 1
-execute @s[tag=mainhost,scores={createprocess=5,noclean=1}] ~ ~ ~ execute @e[type=item,name="Diamond Sword"] ~ ~ ~ scoreboard players reset "-Noclean" countdown 
+execute @s[tag=mainhost,scores={createprocess=5,noclean=1}] ~ ~ ~ execute @e[type=item,name="Diamond Sword"] ~ ~ ~ scoreboard players reset "-NoClean" countdown 
 execute @s[tag=mainhost,scores={createprocess=5,noclean=1}] ~ ~ ~ execute @e[type=item,name="Diamond Sword"] ~ ~ ~ scoreboard players set @p noclean 3
 execute @s[tag=mainhost,scores={createprocess=5,noclean=3}] ~ ~ ~ execute @e[type=item,name="Diamond Sword"] ~ ~ ~ kill @e[type=item]
 execute @s[tag=mainhost,scores={createprocess=5,noclean=3}] ~ ~ ~ scoreboard players set @p noclean 0
