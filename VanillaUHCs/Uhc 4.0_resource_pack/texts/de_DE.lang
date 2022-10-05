@@ -11,8 +11,6 @@ setup.progress.experimental.true=§aBenutzerdefinierte Gegenstände sind aktivie
 setup.interrupt.education=§cWerf Gegenstand erneut, um Aktivierung von Education Edition zu testen.
 setup.progress.education.false=§cEducation Edition ist deaktiviert.
 setup.progress.education.true=§aEducation Edition ist deaktiviert.
-setup.progress.load.structure=§e1.§fÖffne den Structure Block und änder den Modus von Speichern zu Laden.
-setup.progress.load.structure2=§e2.§fSchreibe §eload §fin das Feld für den §eNamen der Struktur §fund betätige den §eLaden-Knopf§f.
 setup.progress.check.lang=§aÜberprüfen ob Sprache verfügbar ist...
 ##
 ##4IDs nicht notwendig, da 

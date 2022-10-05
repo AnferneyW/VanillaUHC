@@ -44,9 +44,7 @@ execute @s[tag=mainhost,scores={setup_process=330}] ~ ~ ~ scoreboard players set
 execute @s[tag=mainhost,scores={edu_edition=0,interrupt=1}] ~ ~ ~ execute @e[type=item,name=Netherstern] ~ ~ ~ function code/edu_edition
 execute @s[tag=mainhost,scores={edu_edition=0,interrupt=1}] ~ ~ ~ execute @e[type=item,name="Nether Star"] ~ ~ ~ function code/edu_edition
 #load structures
-tellraw @s[tag=mainhost,scores={setup_process=338}] {"rawtext":[{"translate":"setup.progress.load.structure"}]}
-tellraw @s[tag=mainhost,scores={setup_process=338}] {"rawtext":[{"translate":"setup.progress.load.structure2"}]}
-execute @s[tag=mainhost,scores={setup_process=340}] ~ ~ ~ function code/structure
+execute @s[tag=mainhost,scores={setup_process=340}] ~ ~ ~ structure load load 0 100 1 
 #summon structures
 execute @s[tag=mainhost,scores={setup_process=345}] ~ ~ ~ gamemode c @s
 execute @s[tag=mainhost,scores={setup_process=345}] ~ ~ ~ setblock 0 1 0 air
