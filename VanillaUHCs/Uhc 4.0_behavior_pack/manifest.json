@@ -13,9 +13,25 @@
             "type": "data",
             "uuid": "fa6e90c8-c925-460f-8155-c8a60b753caa",
             "version": [1, 0, 0]
+        },
+        {
+            "description": "Script-Test",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "b014c64a-4a76-486c-b274-29c60559ed8c",
+            "version": [1, 0, 0],
+            "entry": "scripts/tests.js"
         }
     ],
     "dependencies": [
+        {
+            "module_name": "mojang-minecraft",
+            "version": "1.0.0-beta"
+        },
+        {
+            "module_name": "mojang-gametest",
+            "version": "1.0.0-beta"
+        },
         {
             "uuid": "d1a6fb2e-0dd2-4cfb-8eb1-e5ebca78ef6f",
             "version": [4, 0, 0]
