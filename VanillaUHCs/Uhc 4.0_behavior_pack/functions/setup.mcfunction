@@ -2,6 +2,7 @@ tag @s add mainhost
 tag @s add spectate
 #gamerule
 gamerule sendcommandfeedback false
+difficulty p
 title @a times 0 60 20
 tickingarea add -5 0 -5 5 0 5 spawn
 #objectives

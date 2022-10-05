@@ -79,7 +79,6 @@ execute @s[tag=mainhost,scores={starting_timer=595,ranked=1..2}] ~ ~ ~ titleraw 
 execute @s[tag=mainhost,scores={starting_timer=595,ranked=0..1}] ~ ~ ~ title @a title §a§lUHC 4.0
 execute @s[tag=mainhost,scores={starting_timer=595,ranked=2}] ~ ~ ~ title @a title §a§lUHC Tournament
 execute @s[tag=mainhost,scores={starting_timer=596,ranked=1..2}] ~ ~ ~ effect @a[tag=playing] clear
-execute @s[tag=mainhost,scores={starting_timer=596,ranked=1..2}] ~ ~ ~ effect @a[tag=playing] instant_health 1 255 true
 #players
 execute @s[tag=mainhost,scores={starting_timer=0..590}] ~ ~ ~ function code/player
 #banned players
@@ -158,7 +157,6 @@ execute @s[tag=mainhost,scores={starting_timer=660}] ~ ~ ~ tellraw @a {"rawtext"
 execute @s[tag=mainhost,scores={starting_timer=661}] ~ ~ ~ function code/config
 execute @s[tag=mainhost,scores={starting_timer=680}] ~ ~ ~ tellraw @a {"rawtext":[{"translate":"game.start", "with":["10"]}]}
 execute @s[tag=mainhost,scores={starting_timer=680}] ~ ~ ~ gamerule domobspawning true
-execute @s[tag=mainhost,scores={starting_timer=680,peaceful=1}] ~ ~ ~ difficulty p
 execute @s[tag=mainhost,scores={starting_timer=680,peaceful=0}] ~ ~ ~ difficulty e
 execute @s[tag=mainhost,scores={starting_timer=685}] ~ ~ ~ tellraw @a {"rawtext":[{"translate":"game.start", "with":["5"]}]}
 execute @s[tag=mainhost,scores={starting_timer=685}] ~ ~ ~ scoreboard players reset "§btwitter.com/RealMZLP" uhc
