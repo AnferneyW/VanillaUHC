@@ -39,4 +39,3 @@ execute @s[scores={timer=659..1201}] ~ ~ ~ function code/config/timer/20
 execute @s[scores={timer=1259..1801}] ~ ~ ~ function code/config/timer/30
 execute @s[scores={timer=1859..2401}] ~ ~ ~ function code/config/timer/40
 execute @s[scores={timer=2459..3001}] ~ ~ ~ function code/config/timer/50
-execute @s[scores={timer=5001}] ~ ~ ~ setblock 0 101 0 redstone_block
