@@ -60,15 +60,16 @@ host.instruction=§cStay in the lobby until it completely disappeared.
 vanish.off=§aYou are now visible for other players and can pick up items.
 fixed.spawn=§aThe Spawnbarriers were placed again and optimated.
 open.banmenu=§cYou can now look at the banmenu in your inventory.
+banmenu.access.granted=§cBanmenu access was granted to: %s
 ore.examination=§dExamination of the players' %s §dcount
 banfocus.note=§cNOTE: §fEvery action that will be taken counts for §eall players in the ban focus!§f It is possible that a spectator can see the banmenu too and investigate the players at the same moment (§e/function givemenuperm§f)
 banmenu.message=§fThe §emessage §fhas been sent to all players in the §eban focus§f.
 banmenu.addfocus=§fYou added §eone more player §fto the banfocus. §cNote: §fOnly players that are §efreezed §fcan be in the ban focus.
 banmenu.refreshfocus=§fAll freezed players were kicked out of the banfocus and a new §efreezed player was selected§f.
-list.alive=§aAlive Players:
-list.freezed=§cFreezed Players:
-list.spectator=§bSpectator:
-list.other=§fOther:
+list.alive=§aAlive Players: %s 
+list.freezed=§cFreezed Players: §f%s
+list.spectator=§bSpectators: §f%s
+list.other=§fOther: %s
 help1=§eFixspawn>> §fWhen the spawn is corrupted or barriers were griefed, you can re-establish them with this command.
 help2=§eGamemode>> §fRemoves the Vanish from you and you are able to pick up items.
 help3=§eGivehost>> §fShould only be used after the game started. To tag the person you want to become to become host you have to give him the tag §ebecomehost§f.
@@ -171,8 +172,9 @@ dead.countdown=§fYou will get kicked in §e%s seconds§f.
 ##clearlag
 clearlag.countdown=§cClearlag>> §fClearing Items in §e%s seconds§f.
 clearlag.finish=§cClearlag>> §eItems §fwere cleared.
-##delayedstart
+##delayedstart and respawn
 delayedstart.info=§aWalk on the pressure plate to get a delayed start.
+respawn.info=You respawned §e%s§f.
 ##kills
 ownkills.amount=§bYour Kills: §f%s
 ##teamsystem ids

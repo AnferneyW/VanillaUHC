@@ -4,8 +4,8 @@ tag @p[tag=respawn] add playing
 tag @p[tag=respawn] remove vanished
 ability @p[tag=respawn] mayfly false
 title @s[tag=mainhost] title §f
-execute @p[tag=respawn] ~ ~ ~ title @p[tag=mainhost] subtitle §aYou respawned §e@p[tag=respawn].
-title @a[tag=respawn] title §a§lYou were respawned.
+titleraw @s[tag=mainhost] subtitle {"rawtext":[{"translate":"respawn.info","with":{"rawtext":[{"selector":"@p[tag=respawn]"}]}}]}
+title @p[tag=respawn] title §a§lYou were respawned.
 playsound random.screenshot @p[tag=respawn]
 scoreboard players reset @p[tag=respawn] timings
 effect @p[tag=respawn] clear

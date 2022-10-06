@@ -30,10 +30,10 @@ banfocus.note=§cNotiz: §fJede Aktion die durchgeführt wird gilt §efür alle 
 banmenu.message=§fDiese §eNachricht §fwurde an alle die im §eBannfokus stehen geschickt§f.
 banmenu.addfocus=§fDu hast §eeinen weiteren Spieler §fzum Bannfokus hinzugefügt. §cNotiz: §fNur Spieler die  §egefreezed sind §fkönnen im Fokus sein .
 banmenu.refreshfocus=§Alle die gefreezed waren wurden entfernt und ein neuer Spieler wurde  §egefreezed§f.
-list.alive=§aLebende Spieler:
-list.freezed=§cGefreezed:
-list.spectator=§bSpectator:
-list.other=§fOther:
+list.alive=§aLebende Spieler: %s
+list.freezed=§cGefreezed: §f%s
+list.spectator=§bSpectator: §f%s
+list.other=§fOther: %s
 help1=§eFixspawn>> §fSollte der Spawn geschädigt oder gegrieft worden sein kannst du es mit einem command reparieren.
 help2=§eGamemode>> §fEntfernt dein Vanish und du bekommst die Fähigkeit Items aufzusammeln.
 help3=§eGivehost>> §fSollte nur gemacht werden nachdem das Spiel gestartet hat. Du musst den anderen Host den Tag §ebecomehost§f geben.
@@ -137,8 +137,9 @@ dead.countdown=§fDu wirst in §e%s Sekunden §fgekickt.
 ##clearlag
 clearlag.countdown=§cClearlag>> §fItems auf dem Boden werden in §e%s Sekunden gelöscht§f.
 clearlag.finish=§cClearlag>> §eItems §fwurden gelöscht.
-##delayedstart
+##delayedstart and respawn
 delayedstart.info=§aLauf auf die Druckplatte um einen Delaystart zu bekommen!
+respawn.info=Du hast §e%s %fwiederbelebt.
 ##kills
 ownkills.amount=§bDeine Kills: §f%s
 ##teamsystem ids
