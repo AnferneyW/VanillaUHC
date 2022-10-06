@@ -48,6 +48,7 @@ help9=§eWinner>> §fErmittelt die kills der Letzten Überlebenden und die Struk
 ##
 ##countdown
 start.countdown=Startet §ein 10mins
+display.playercount=§e%%s§f/50
 drop.choose.message=§aDrop das Item um ein Team zu wählen.
 close.setting.team=§cIn %s Sekunden kannst du kein Team mehr wählen!
 close.setting.team.finish=§eDie Teams wurden gespeichert. §aCrossteaming ist erlaubt.
