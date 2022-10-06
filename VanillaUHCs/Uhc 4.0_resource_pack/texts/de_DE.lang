@@ -17,7 +17,7 @@ setup.progress.check.lang=§aÜberprüfen ob Sprache verfügbar ist...
 ##Deutsch nicht verfügbar ist
 ##
 ##inteam ids
-host.display = §e%s§f/50 Players
+host.display = §e%s§f out of 50 possible players.
 spectate.activate.team=§aDu bist nun im Spectator mode. Diese Einstellung §ckann nicht mehr, §a10 Sekunden vor dem Spiel geändert werden
 spectate.deactivate.team=§aDu wurdest als normaler Spieler registriert.
 permission.denied=§4Du hast keine Berechtigungen diesen Command auszuführen.
