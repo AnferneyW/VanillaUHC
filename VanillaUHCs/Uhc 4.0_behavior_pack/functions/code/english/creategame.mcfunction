@@ -357,7 +357,6 @@ execute @s[tag=mainhost,scores={createprocess=-21}] ~ ~ ~ fill ~-4 ~-1 ~-4 ~4 ~3
 execute @s[tag=mainhost,scores={createprocess=-21}] ~ ~ ~ setblock 0 127 0 portal
 execute @s[tag=mainhost,scores={createprocess=-21}] ~ ~ ~ tp @s 0 127 1
 execute @s[tag=mainhost,scores={createprocess=-21}] ~ ~ ~ scoreboard players set @s createprocess -22
-execute @s[tag=mainhost,scores={createprocess=-22,diamondless=1}] ~ ~ ~ replaceitem block -1 0 1 slot.container 4 diamond 2
 execute @s[tag=mainhost,scores={createprocess=-22,goldenheads=1}] ~ ~ ~ replaceitem block -1 0 1 slot.container 22 uhc:head
 execute @s[tag=mainhost,scores={createprocess=-22}] ~ ~ ~ gamemode c 
 execute @s[tag=mainhost,scores={createprocess=-22}] ~ ~ ~ tp @s 0 127 0
