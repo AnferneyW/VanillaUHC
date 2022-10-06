@@ -169,6 +169,7 @@ scatter.choose=§dDu hast ausgewählt in der Nähe von §6%s §dauf der Map zu s
 scatter.info=§4Aufgrund eines §d§lVIP §r§4in deinem Team, ist deine Scatterposition besimmt.
 ##spectate
 spectate.message=§eDu bist nun Zuschauer des UHCs und bist für andere Spieler unsichtbar.
+spectate.notification=§e%s §fist nun Zuschauer des UHCs.
 ##border
 border.countdown.750=§cBorder>> §eBorder §fverkleinert sich zu §e750 §fin §e%s Sekunden§f.
 border.countdown.500=§cBorder>> §eBorder §fverkleinert sich zu §e500 §fin §e%s Sekunden§f.
