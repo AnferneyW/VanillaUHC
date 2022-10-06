@@ -7,6 +7,7 @@ execute @s[tag=mainhost,scores={setup_process=16}] ~ ~ ~ kill @e[type=!player]
 #gamerules
 execute @s[tag=mainhost,scores={setup_process=24}] ~ ~ ~ gamerule falldamage false
 execute @s[tag=mainhost,scores={setup_process=24}] ~ ~ ~ gamerule commandblockoutput false
+execute @s[tag=mainhost,scores={setup_process=25}] ~ ~ ~ difficulty p
 execute @s[tag=mainhost,scores={setup_process=25}] ~ ~ ~ gamerule doinsomnia false 
 execute @s[tag=mainhost,scores={setup_process=25}] ~ ~ ~ gamerule doimmediaterespawn true
 execute @s[tag=mainhost,scores={setup_process=26}] ~ ~ ~ gamerule doweathercycle false
