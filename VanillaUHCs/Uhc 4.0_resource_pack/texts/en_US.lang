@@ -83,7 +83,7 @@ help9=§eWinner>> §fDetermines the last person standing kills and creates the l
 ##
 ##countdown
 start.countdown=Starting game §ein 10mins
-display.playercount=§e%%s§f/50
+display.playercount=§e%s§f/50
 close.setting.team=§cIn %s seconds you won't be able to choose a team anymore.
 close.setting.team.finish=§eTeams are now set. §aCrossteaming is allowed.
 close.setting.team.finish2=§eTeams are now set. §c§lCrossteaming is not allowed.
