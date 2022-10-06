@@ -20,4 +20,4 @@ execute @a[tag=mainhost,scores={gamestatus=1,ruler=0..8}] ~ ~ ~ function code/en
 execute @a[tag=mainhost,scores={gamestatus=1,timer=0..599,ruler=1}] ~ ~ ~ function code/delayedstart
 execute @a[tag=mainhost,scores={gamestatus=1,timer=0..,ruler=2}] ~ ~ ~ function code/english/deadplayers
 #spawnpoint
-execute @a[tag=mainhost,scores={gamestatus=1,ruler=9}] ~ ~ ~ clearspawnpoint @a[tag=playing] 0 214 0 
+execute @a[tag=mainhost,scores={gamestatus=1,ruler=9}] ~ ~ ~ clearspawnpoint @a[tag=playing]
