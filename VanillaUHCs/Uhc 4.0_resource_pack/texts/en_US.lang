@@ -47,14 +47,13 @@ setup.progress.experimental.true=§aCustom Items are enabled.
 setup.interrupt.education=§cDrop item to test again for education edition.
 setup.progress.education.false=§cEducation Edition isn't enabled.
 setup.progress.education.true=§aEducation Edition is enabled.
-setup.progress.load.structure=§e1.§fOpen the structure block and change from save to load.
-setup.progress.load.structure2=§e2.§fWrite §eload §fin the §estructure name §fand click on the §eload button§f.
 setup.progress.check.lang=§aChecking if language available...
 setup.progress.language.avaible=§aLanguage is available
 setup.progress.finish=§aThe automated setup is finished. Now you adjust the game.
 create.process.actionbar=§cDrop the item to choose.
 start.failed=§cThe game already started.
 ##inteam ids
+host.display = §e%s §f/50 Spieler
 spectate.activate.team=§aYou are now spectating the game. This setting can §cnot anymore §abe changed 10 seconds before the game will start!!!
 spectate.deactivate.team=§aYou are now registered as a normal player.
 permission.denied=§4You have no permission to execute this command.

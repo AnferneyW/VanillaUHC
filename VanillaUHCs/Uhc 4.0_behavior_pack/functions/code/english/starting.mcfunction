@@ -169,7 +169,7 @@ execute @s[tag=mainhost,scores={starting_timer=686}] ~ ~ ~ scoreboard players se
 execute @s[tag=mainhost,scores={starting_timer=686}] ~ ~ ~ scoreboard players set "§eBorder: §f1000" uhc -1
 execute @s[tag=mainhost,scores={starting_timer=686}] ~ ~ ~ scoreboard players set "§eAlive Players:" uhc 1
 execute @s[tag=mainhost,scores={starting_timer=687}] ~ ~ ~ tellraw @a {"rawtext":[{"translate":"game.start", "with":["3"]}]}
-execute @s[tag=mainhost,scores={starting_timer=688}] ~ ~ ~ scoreboard objectives setdisplay below_name kills
+execute @s[tag=mainhost,scores={starting_timer=688}] ~ ~ ~ scoreboard objectives setdisplay belowname kills
 execute @s[tag=mainhost,scores={starting_timer=688}] ~ ~ ~ tellraw @a {"rawtext":[{"translate":"game.start", "with":["2"]}]}
 execute @s[tag=mainhost,scores={starting_timer=688}] ~ ~ ~ clear @a[tag=playing]
 execute @s[tag=mainhost,scores={starting_timer=688}] ~ ~ ~ execute @a[tag=playing] ~ ~ ~ kill @e[type=item]
