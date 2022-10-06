@@ -14,7 +14,8 @@ execute @s[tag=mainhost,scores={diamondless=1}] ~ ~ ~ function code/english/scen
 execute @s[tag=mainhost,scores={blooddiamonds=1,doubleores=0}] ~ ~ ~ function code/english/scenarios/orescenarios/blooddiamonds
 execute @s[tag=mainhost,scores={blooddiamonds=1,doubleores=1}] ~ ~ ~ function code/english/scenarios/orescenarios/doubleblooddiamonds
 execute @s[tag=mainhost,scores={doubleores=1,blooddiamonds=0,diamondless=0}] ~ ~ ~ function code/english/scenarios/orescenarios/doublediamond
-execute @s[tag=mainhost,scores={diamondless=0,blooddiamonds=0,doubleores=0}] ~ ~ ~ function code/english/scenarios/orescenarios/limitdiamond
+execute @s[tag=mainhost,scores={diamondless=0,blooddiamonds=0,doubleores=0,limitations=1}] ~ ~ ~ function code/english/scenarios/orescenarios/limitdiamond
+execute @s[tag=mainhost,scores={diamondless=0,blooddiamonds=0,doubleores=0,limitations=0}] ~ ~ ~ function code/english/diamonds
 #enchantless
 execute @s[tag=mainhost,scores={enchantless=1}] ~ ~ ~ execute @a[tag=playing] ~ ~ ~ kill @e[type=xp_orb]
 #deathscenarios
