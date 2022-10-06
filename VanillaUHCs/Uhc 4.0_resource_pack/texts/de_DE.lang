@@ -17,7 +17,7 @@ setup.progress.check.lang=§aÜberprüfen ob Sprache verfügbar ist...
 ##Deutsch nicht verfügbar ist
 ##
 ##inteam ids
-host.display = §e%s§f out of 50 possible players.
+host.display=§e%s§f out of 50 possible players.
 spectate.activate.team=§aDu bist nun im Spectator mode. Diese Einstellung §ckann nicht mehr, §a10 Sekunden vor dem Spiel geändert werden
 spectate.deactivate.team=§aDu wurdest als normaler Spieler registriert.
 permission.denied=§4Du hast keine Berechtigungen diesen Command auszuführen.
@@ -27,7 +27,7 @@ fixed.spawn=§aDie Spawnfläche wurde erneuert und optimiert.
 open.banmenu=§cDas Bannmenü in deinem Inventar wurde erstellt.
 ore.examination=§dÜberprüfung der Spieler %s §dcount
 banfocus.note=§cNotiz: §fJede Aktion die durchgeführt wird gilt §efür alle Spieler die im Bannfokus sind! Es ist möglich, dass ein anderer Spectator ebenfalls das Banmemu sehen kann  und ebenfalls grade zur selben Zeit den Spieler untersucht (§e/function givemenuperm§f)
-banmenu.message=§fDiese §eNachricht §fwurde an alle die im §eBannFocus stehen geschickt§f.
+banmenu.message=§fDiese §eNachricht §fwurde an alle die im §eBannfokus stehen geschickt§f.
 banmenu.addfocus=§fDu hast §eeinen weiteren Spieler §fzum Bannfokus hinzugefügt. §cNotiz: §fNur Spieler die  §egefreezed sind §fkönnen im Fokus sein .
 banmenu.refreshfocus=§Alle die gefreezed waren wurden entfernt und ein neuer Spieler wurde  §egefreezed§f.
 list.alive=§aLebende Spieler:
