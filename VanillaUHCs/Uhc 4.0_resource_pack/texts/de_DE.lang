@@ -30,6 +30,7 @@ banfocus.note=§cNotiz: §fJede Aktion die durchgeführt wird gilt §efür alle 
 banmenu.message=§fDiese §eNachricht §fwurde an alle die im §eBannfokus stehen geschickt§f.
 banmenu.addfocus=§fDu hast §eeinen weiteren Spieler §fzum Bannfokus hinzugefügt. §cNotiz: §fNur Spieler die  §egefreezed sind §fkönnen im Fokus sein .
 banmenu.refreshfocus=§Alle die gefreezed waren wurden entfernt und ein neuer Spieler wurde  §egefreezed§f.
+baninfo.deterrence=%s was banned for §e%s §fby §e%s§f.
 list.alive=§aLebende Spieler: %s
 list.freezed=§cGefreezed: §f%s
 list.spectator=§bSpectator: §f%s

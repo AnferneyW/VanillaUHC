@@ -1,11 +1,10 @@
 #public
 execute @e[type=item,name="§aConfirm"] ~ ~ ~ tag @p[tag=banmenu] add banner
-execute @a[tag=banfocus,scores={banreason=1}] ~ ~ ~ say was banned for §eCheating §fby §e@a[tag=banner]§f.
-execute @a[tag=banfocus,scores={banreason=2}] ~ ~ ~ say was banned for §eCheating (Admitted) §fby §e@a[tag=banner]§f.
-execute @a[tag=banfocus,scores={banreason=3}] ~ ~ ~ say was banned for §eSS-Refusing §fby §e@a[tag=banner]§f.
-execute @a[tag=banfocus,scores={banreason=4}] ~ ~ ~ say was banned for §eX-Ray §fby §e@a[tag=banner]§f.
-execute @a[tag=banfocus,scores={banreason=5}] ~ ~ ~ say was banned for §eTeaming §fby §e@a[tag=banner]§f.
-execute @a[tag=banfocus,scores={banreason=6}] ~ ~ ~ say was banned for §eBan evading §fby §e@a[tag=banner]§f.
+execute @a[tag=banfocus,scores={banreason=1..2}] ~ ~ ~ tellraw @a {"rawtext":[{"translate":"baninfo.deterrence","with":{"rawtext":[{"selector":"@s"},{"text":"Cheating"},{"selector":"@p[tag=banner]"}]}}]}
+execute @a[tag=banfocus,scores={banreason=3}] ~ ~ ~ tellraw @a {"rawtext":[{"translate":"baninfo.deterrence","with":{"rawtext":[{"selector":"@s"},{"text":"SS-Refusing"},{"selector":"@p[tag=banner]"}]}}]}
+execute @a[tag=banfocus,scores={banreason=4}] ~ ~ ~ tellraw @a {"rawtext":[{"translate":"baninfo.deterrence","with":{"rawtext":[{"selector":"@s"},{"text":"X-Ray"},{"selector":"@p[tag=banner]"}]}}]}
+execute @a[tag=banfocus,scores={banreason=5}] ~ ~ ~ tellraw @a {"rawtext":[{"translate":"baninfo.deterrence","with":{"rawtext":[{"selector":"@s"},{"text":"Teaming"},{"selector":"@p[tag=banner]"}]}}]}
+execute @a[tag=banfocus,scores={banreason=6}] ~ ~ ~ tellraw @a {"rawtext":[{"translate":"baninfo.deterrence","with":{"rawtext":[{"selector":"@s"},{"text":"Ban evading"},{"selector":"@p[tag=banner]"}]}}]}
 playsound item.trident.thunder @a
 #staffmessage
 tellraw @a[tag=banner] {"rawtext":[{"text":"§f--------------------"}]}
