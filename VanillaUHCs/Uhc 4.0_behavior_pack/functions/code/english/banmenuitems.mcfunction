@@ -1,5 +1,5 @@
 #display
-title @a[tag=banmenu] actionbar §cCurrent Banfocus: §4@a[tag=banfocus]
+execute @s[tag=!confirmation] ~ ~ ~ title @a[tag=banmenu] actionbar §cCurrent Banfocus: §4@a[tag=banfocus]
 #crosses
 execute @r[tag=banfocus,tag=!reasonselect] ~ ~ ~ replaceitem entity @a[tag=banmenu] slot.inventory 0 uhc:notselected1
 execute @r[tag=banfocus,tag=!reasonselect] ~ ~ ~ replaceitem entity @a[tag=banmenu] slot.inventory 1 uhc:notselected2
