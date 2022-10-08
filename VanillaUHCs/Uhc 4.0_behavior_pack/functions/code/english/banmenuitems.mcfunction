@@ -24,7 +24,6 @@ replaceitem entity @a[tag=banmenu] slot.inventory 14 uhc:reason6
 #examining
 replaceitem entity @a[tag=banmenu] slot.inventory 8 uhc:orecount
 replaceitem entity @a[tag=banmenu] slot.inventory 17 uhc:levelcount
-execute @s[scores={menutimer=0..}] ~ ~ ~ function code/english/bansystem/examinetimer
 #messages
 replaceitem entity @a[tag=banmenu] slot.inventory 6 uhc:screenshotmsg
 replaceitem entity @a[tag=banmenu] slot.inventory 15 uhc:anydeskmsg
