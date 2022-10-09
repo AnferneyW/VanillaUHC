@@ -1,4 +1,5 @@
 execute @s[scores={team=1}] ~ ~ ~ scoreboard players add @e[type=hovertext:hovertext,name="§eTeam 1"] teamspaceleft 1
+#why did I do this?
 execute @s[scores={team=1}] ~ ~ ~ execute @a[tag=mainhost,scores={teamsize=2}] ~ ~ ~ execute @e[type=hovertext:hovertext,name="§eTeam 1",scores={teamspaceleft=2}] ~ ~ ~ execute @e[type=hovertext:marker,name="t1"] ~ ~ ~ clone 35 225 -16 35 226 -16 ~ ~-1 ~
 execute @s[scores={team=1}] ~ ~ ~ execute @a[tag=mainhost,scores={teamsize=3}] ~ ~ ~ execute @e[type=hovertext:hovertext,name="§eTeam 1",scores={teamspaceleft=3}] ~ ~ ~ execute @e[type=hovertext:marker,name="t1"] ~ ~ ~ clone 35 225 -16 35 226 -16 ~ ~-1 ~
 execute @s[scores={team=1}] ~ ~ ~ execute @a[tag=mainhost,scores={teamsize=4}] ~ ~ ~ execute @e[type=hovertext:hovertext,name="§eTeam 1",scores={teamspaceleft=4}] ~ ~ ~ execute @e[type=hovertext:marker,name="t1"] ~ ~ ~ clone 35 225 -16 35 226 -16 ~ ~-1 ~
