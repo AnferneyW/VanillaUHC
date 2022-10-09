@@ -1,19 +1,19 @@
 #display
 execute @s[tag=!confirmation] ~ ~ ~ title @a[tag=banmenu] actionbar §cCurrent Banfocus: §4@a[tag=banfocus]
 #crosses
-execute @r[tag=banfocus,tag=!reasonselect] ~ ~ ~ replaceitem entity @a[tag=banmenu] slot.inventory 0 uhc:notselected1
-execute @r[tag=banfocus,tag=!reasonselect] ~ ~ ~ replaceitem entity @a[tag=banmenu] slot.inventory 1 uhc:notselected2
-execute @r[tag=banfocus,tag=!reasonselect] ~ ~ ~ replaceitem entity @a[tag=banmenu] slot.inventory 2 uhc:notselected3
-execute @r[tag=banfocus,tag=!reasonselect] ~ ~ ~ replaceitem entity @a[tag=banmenu] slot.inventory 3 uhc:notselected4
-execute @r[tag=banfocus,tag=!reasonselect] ~ ~ ~ replaceitem entity @a[tag=banmenu] slot.inventory 4 uhc:notselected5
-execute @r[tag=banfocus,tag=!reasonselect] ~ ~ ~ replaceitem entity @a[tag=banmenu] slot.inventory 5 uhc:notselected6
+execute @p[tag=banfocus,tag=!reasonselect] ~ ~ ~ replaceitem entity @a[tag=banmenu] slot.inventory 0 uhc:notselected1
+execute @p[tag=banfocus,tag=!reasonselect] ~ ~ ~ replaceitem entity @a[tag=banmenu] slot.inventory 1 uhc:notselected2
+execute @p[tag=banfocus,tag=!reasonselect] ~ ~ ~ replaceitem entity @a[tag=banmenu] slot.inventory 2 uhc:notselected3
+execute @p[tag=banfocus,tag=!reasonselect] ~ ~ ~ replaceitem entity @a[tag=banmenu] slot.inventory 3 uhc:notselected4
+execute @p[tag=banfocus,tag=!reasonselect] ~ ~ ~ replaceitem entity @a[tag=banmenu] slot.inventory 4 uhc:notselected5
+execute @p[tag=banfocus,tag=!reasonselect] ~ ~ ~ replaceitem entity @a[tag=banmenu] slot.inventory 5 uhc:notselected6
 #mark
-execute @r[tag=banfocus,tag=reasonselect,scores={banreason=1}] ~ ~ ~ replaceitem entity @a[tag=banmenu] slot.inventory 0 uhc:selected
-execute @r[tag=banfocus,tag=reasonselect,scores={banreason=2}] ~ ~ ~ replaceitem entity @a[tag=banmenu] slot.inventory 1 uhc:selected
-execute @r[tag=banfocus,tag=reasonselect,scores={banreason=3}] ~ ~ ~ replaceitem entity @a[tag=banmenu] slot.inventory 2 uhc:selected
-execute @r[tag=banfocus,tag=reasonselect,scores={banreason=4}] ~ ~ ~ replaceitem entity @a[tag=banmenu] slot.inventory 3 uhc:selected
-execute @r[tag=banfocus,tag=reasonselect,scores={banreason=5}] ~ ~ ~ replaceitem entity @a[tag=banmenu] slot.inventory 4 uhc:selected
-execute @r[tag=banfocus,tag=reasonselect,scores={banreason=6}] ~ ~ ~ replaceitem entity @a[tag=banmenu] slot.inventory 5 uhc:selected
+execute @p[tag=banfocus,tag=reasonselect,scores={banreason=1}] ~ ~ ~ replaceitem entity @a[tag=banmenu] slot.inventory 0 uhc:selected
+execute @p[tag=banfocus,tag=reasonselect,scores={banreason=2}] ~ ~ ~ replaceitem entity @a[tag=banmenu] slot.inventory 1 uhc:selected
+execute @p[tag=banfocus,tag=reasonselect,scores={banreason=3}] ~ ~ ~ replaceitem entity @a[tag=banmenu] slot.inventory 2 uhc:selected
+execute @p[tag=banfocus,tag=reasonselect,scores={banreason=4}] ~ ~ ~ replaceitem entity @a[tag=banmenu] slot.inventory 3 uhc:selected
+execute @p[tag=banfocus,tag=reasonselect,scores={banreason=5}] ~ ~ ~ replaceitem entity @a[tag=banmenu] slot.inventory 4 uhc:selected
+execute @p[tag=banfocus,tag=reasonselect,scores={banreason=6}] ~ ~ ~ replaceitem entity @a[tag=banmenu] slot.inventory 5 uhc:selected
 #reasons
 replaceitem entity @a[tag=banmenu] slot.inventory 9 uhc:reason1
 replaceitem entity @a[tag=banmenu] slot.inventory 10 uhc:reason2
