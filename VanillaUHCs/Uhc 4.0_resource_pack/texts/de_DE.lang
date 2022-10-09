@@ -153,6 +153,7 @@ ownkills.amount=§bDeine Kills: §f%s
 ##teamsystem ids
 team.can.join=§aDu bist Team §e%s §abeigetreten
 team.cant.join=§cDieses Team ist bereits voll.
+team.display=§fDein Team: §e%s
 team.leave=§cDu hast das Team verlassen.
 ##perks
 perk.default.select=§fDu hast die Partikel %s §r[§eDefault§r] ausgewählt.

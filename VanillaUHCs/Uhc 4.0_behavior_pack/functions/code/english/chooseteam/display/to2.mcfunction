@@ -1,26 +1,25 @@
-#actionbar
-title @a[scores={team=1}] actionbar §aYour team: §f@a[scores={team=1}]
-title @a[scores={team=2}] actionbar §aYour team: §f@a[scores={team=2}]
-title @a[scores={team=3}] actionbar §aYour team: §f@a[scores={team=3}]
-title @a[scores={team=4}] actionbar §aYour team: §f@a[scores={team=4}]
-title @a[scores={team=5}] actionbar §aYour team: §f@a[scores={team=5}]
-title @a[scores={team=6}] actionbar §aYour team: §f@a[scores={team=6}]
-title @a[scores={team=7}] actionbar §aYour team: §f@a[scores={team=7}]
-title @a[scores={team=8}] actionbar §aYour team: §f@a[scores={team=8}]
-title @a[scores={team=9}] actionbar §aYour team: §f@a[scores={team=9}]
-title @a[scores={team=10}] actionbar §aYour team: §f@a[scores={team=10}]
-title @a[scores={team=11}] actionbar §aYour team: §f@a[scores={team=11}]
-title @a[scores={team=12}] actionbar §aYour team: §f@a[scores={team=12}]
-title @a[scores={team=13}] actionbar §aYour team: §f@a[scores={team=13}]
-title @a[scores={team=14}] actionbar §aYour team: §f@a[scores={team=14}]
-title @a[scores={team=15}] actionbar §aYour team: §f@a[scores={team=15}]
-title @a[scores={team=16}] actionbar §aYour team: §f@a[scores={team=16}]
-title @a[scores={team=17}] actionbar §aYour team: §f@a[scores={team=17}]
-title @a[scores={team=18}] actionbar §aYour team: §f@a[scores={team=18}]
-title @a[scores={team=19}] actionbar §aYour team: §f@a[scores={team=19}]
-title @a[scores={team=20}] actionbar §aYour team: §f@a[scores={team=20}]
-title @a[scores={team=21}] actionbar §aYour team: §f@a[scores={team=21}]
-title @a[scores={team=22}] actionbar §aYour team: §f@a[scores={team=22}]
-title @a[scores={team=23}] actionbar §aYour team: §f@a[scores={team=23}]
-title @a[scores={team=24}] actionbar §aYour team: §f@a[scores={team=24}]
-title @a[scores={team=25}] actionbar §aYour team: §f@a[scores={team=25}]
+titleraw @a[scores={team=1}] actionbar {"rawtext":[{"translate":"team.display","with":{"rawtext":[{"selector":"@a[scores={team=1}]"}]}}]} 
+titleraw @a[scores={team=2}] actionbar {"rawtext":[{"translate":"team.display","with":{"rawtext":[{"selector":"@a[scores={team=2}]"}]}}]} 
+titleraw @a[scores={team=3}] actionbar {"rawtext":[{"translate":"team.display","with":{"rawtext":[{"selector":"@a[scores={team=3}]"}]}}]} 
+titleraw @a[scores={team=4}] actionbar {"rawtext":[{"translate":"team.display","with":{"rawtext":[{"selector":"@a[scores={team=4}]"}]}}]} 
+titleraw @a[scores={team=5}] actionbar {"rawtext":[{"translate":"team.display","with":{"rawtext":[{"selector":"@a[scores={team=5}]"}]}}]} 
+titleraw @a[scores={team=6}] actionbar {"rawtext":[{"translate":"team.display","with":{"rawtext":[{"selector":"@a[scores={team=6}]"}]}}]} 
+titleraw @a[scores={team=7}] actionbar {"rawtext":[{"translate":"team.display","with":{"rawtext":[{"selector":"@a[scores={team=7}]"}]}}]} 
+titleraw @a[scores={team=8}] actionbar {"rawtext":[{"translate":"team.display","with":{"rawtext":[{"selector":"@a[scores={team=8}]"}]}}]} 
+titleraw @a[scores={team=9}] actionbar {"rawtext":[{"translate":"team.display","with":{"rawtext":[{"selector":"@a[scores={team=9}]"}]}}]} 
+titleraw @a[scores={team=10}] actionbar {"rawtext":[{"translate":"team.display","with":{"rawtext":[{"selector":"@a[scores={team=10}]"}]}}]} 
+titleraw @a[scores={team=11}] actionbar {"rawtext":[{"translate":"team.display","with":{"rawtext":[{"selector":"@a[scores={team=11}]"}]}}]} 
+titleraw @a[scores={team=12}] actionbar {"rawtext":[{"translate":"team.display","with":{"rawtext":[{"selector":"@a[scores={team=12}]"}]}}]} 
+titleraw @a[scores={team=13}] actionbar {"rawtext":[{"translate":"team.display","with":{"rawtext":[{"selector":"@a[scores={team=13}]"}]}}]} 
+titleraw @a[scores={team=14}] actionbar {"rawtext":[{"translate":"team.display","with":{"rawtext":[{"selector":"@a[scores={team=14}]"}]}}]} 
+titleraw @a[scores={team=15}] actionbar {"rawtext":[{"translate":"team.display","with":{"rawtext":[{"selector":"@a[scores={team=15}]"}]}}]} 
+titleraw @a[scores={team=16}] actionbar {"rawtext":[{"translate":"team.display","with":{"rawtext":[{"selector":"@a[scores={team=16}]"}]}}]} 
+titleraw @a[scores={team=17}] actionbar {"rawtext":[{"translate":"team.display","with":{"rawtext":[{"selector":"@a[scores={team=17}]"}]}}]} 
+titleraw @a[scores={team=18}] actionbar {"rawtext":[{"translate":"team.display","with":{"rawtext":[{"selector":"@a[scores={team=18}]"}]}}]} 
+titleraw @a[scores={team=19}] actionbar {"rawtext":[{"translate":"team.display","with":{"rawtext":[{"selector":"@a[scores={team=19}]"}]}}]} 
+titleraw @a[scores={team=20}] actionbar {"rawtext":[{"translate":"team.display","with":{"rawtext":[{"selector":"@a[scores={team=20}]"}]}}]} 
+titleraw @a[scores={team=21}] actionbar {"rawtext":[{"translate":"team.display","with":{"rawtext":[{"selector":"@a[scores={team=21}]"}]}}]} 
+titleraw @a[scores={team=22}] actionbar {"rawtext":[{"translate":"team.display","with":{"rawtext":[{"selector":"@a[scores={team=22}]"}]}}]} 
+titleraw @a[scores={team=23}] actionbar {"rawtext":[{"translate":"team.display","with":{"rawtext":[{"selector":"@a[scores={team=23}]"}]}}]} 
+titleraw @a[scores={team=24}] actionbar {"rawtext":[{"translate":"team.display","with":{"rawtext":[{"selector":"@a[scores={team=24}]"}]}}]} 
+titleraw @a[scores={team=25}] actionbar {"rawtext":[{"translate":"team.display","with":{"rawtext":[{"selector":"@a[scores={team=25}]"}]}}]} 
