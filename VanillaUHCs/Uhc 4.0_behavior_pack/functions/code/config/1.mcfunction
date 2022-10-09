@@ -1,5 +1,4 @@
 scoreboard players add @s timer 1
-execute @s[scores={timer=1}] ~ ~ ~ function code/removeobj
 #displaykills
 function code/displaykills
 function code/banlist

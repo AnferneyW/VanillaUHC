@@ -174,17 +174,4 @@ execute @s[tag=mainhost,scores={starting_timer=688}] ~ ~ ~ tellraw @a {"rawtext"
 execute @s[tag=mainhost,scores={starting_timer=688}] ~ ~ ~ clear @a[tag=playing]
 execute @s[tag=mainhost,scores={starting_timer=688}] ~ ~ ~ execute @a[tag=playing] ~ ~ ~ kill @e[type=item]
 execute @s[tag=mainhost,scores={starting_timer=689}] ~ ~ ~ tellraw @a {"rawtext":[{"translate":"game.start", "with":["1"]}]}
-execute @s[tag=mainhost,scores={starting_timer=690}] ~ ~ ~ title @a title §f
-execute @s[tag=mainhost,scores={starting_timer=690}] ~ ~ ~ titleraw @a title {"rawtext":[{"translate":"game.started"}]}
-execute @s[tag=mainhost,scores={starting_timer=690}] ~ ~ ~ execute @a[tag=playing] ~ ~ ~ fill ~-1 ~-1 ~-1 ~1 ~2 ~1 air
-execute @s[tag=mainhost,scores={starting_timer=690}] ~ ~ ~ playsound conduit.deactivate @a
-execute @s[tag=mainhost,scores={starting_timer=690,peaceful=0}] ~ ~ ~ give @a[tag=playing] cooked_beef 20
-execute @s[tag=mainhost,scores={starting_timer=690}] ~ ~ ~ effect @a night_vision 99999 255 true
-execute @s[tag=mainhost,scores={starting_timer=690}] ~ ~ ~ effect @a instant_health 1 255 true
-execute @s[tag=mainhost,scores={starting_timer=690}] ~ ~ ~ setblock 0 211 8 stone_pressure_plate
-execute @s[tag=mainhost,scores={starting_timer=690}] ~ ~ ~ gamemode s @a[tag=playing]
-execute @s[tag=mainhost,scores={starting_timer=690}] ~ ~ ~ scoreboard players set @a[tag=playing] iron_limit 0
-execute @s[tag=mainhost,scores={starting_timer=690}] ~ ~ ~ scoreboard players set @a[tag=playing] gold_limit 0
-execute @s[tag=mainhost,scores={starting_timer=690}] ~ ~ ~ scoreboard players set @a[tag=playing] diamond_limit 0
-execute @s[tag=mainhost,scores={starting_timer=690}] ~ ~ ~ scoreboard players set @a[tag=playing] kills 0
-execute @s[tag=mainhost,scores={starting_timer=690}] ~ ~ ~ scoreboard players set @p gamestatus 1
+execute @s[tag=mainhost,scores={starting_timer=690}] ~ ~ ~ function code/removeobj
