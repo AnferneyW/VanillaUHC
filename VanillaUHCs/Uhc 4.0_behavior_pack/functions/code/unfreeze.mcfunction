@@ -12,15 +12,17 @@ scoreboard players reset @s[tag=!getban] banreason
 tag @s[tag=!getban] remove reasonselect
 tag @s remove banfocus
 tag @s remove freeze
-execute @a[tag=banfocus] ~ ~ ~ tag @a[tag=mainhost] add noautofocus
-execute @a[tag=mainhost,tag=!noautofocus] ~ ~ ~ tag @r[tag=freeze] add banfocus
-tag @a[tag=mainhost] remove noautofocus
-execute @a[tag=freeze] ~ ~ ~ tag @a[tag=mainhost] add stayopen
-execute @a[tag=mainhost,tag=!stayopen] ~ ~ ~ tag @s add closemenu
-execute @a[tag=mainhost,tag=stayopen] ~ ~ ~ function code/english/bansystem/cancel
-tag @a[tag=mainhost] remove stayopen
-replaceitem entity @a[tag=mainhost] slot.hotbar 4 uhc:slot
-replaceitem entity @a[tag=mainhost] slot.hotbar 7 uhc:slot
+#update banfocus and menu(checking if it needs to stay open)
+execute @a[tag=banfocus] ~ ~ ~ tag @p[tag=mainhost] add noautofocus
+execute @p[tag=mainhost,tag=!noautofocus] ~ ~ ~ tag @r[tag=freeze] add banfocus
+tag @p[tag=mainhost] remove noautofocus
+execute @a[tag=freeze] ~ ~ ~ tag @p[tag=mainhost] add stayopen
+execute @p[tag=mainhost,tag=!stayopen] ~ ~ ~ tag @s add closemenu
+execute @p[tag=mainhost,tag=stayopen] ~ ~ ~ function code/english/bansystem/cancel
+tag @p[tag=mainhost] remove stayopen
+replaceitem entity @p[tag=mainhost] slot.hotbar 4 uhc:slot
+replaceitem entity @p[tag=mainhost] slot.hotbar 7 uhc:slot
+#banaction if demanded
 clear @s[tag=getban,scores={banreason=4}]
 kill @s[tag=getban]
 kill @e[type=item,name="Dead"]

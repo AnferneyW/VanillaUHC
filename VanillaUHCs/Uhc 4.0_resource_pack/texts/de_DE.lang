@@ -25,15 +25,23 @@ host.instruction=§cBleibe in der Lobby bis sie komplett verschwunden ist.
 vanish.off=§aDu bist nun für andere Spieler sichtbar und kannst Items aufsammeln.
 fixed.spawn=§aDie Spawnfläche wurde erneuert und optimiert.
 open.banmenu=§cDas Bannmenü in deinem Inventar wurde erstellt.
-ore.examination=§dÜberprüfung der Spieler %s §dcount
+ore.examination=§e%s §fhat bereits §e%s %s §fgefarmt.
+level.examination=§e%s §fbesitzt zwischen §e%s §fund §e%s §fLevel.
+level.examination.outside=§e%s §fbesitzt mehr als §e%s §fLevel.
 banfocus.note=§cNotiz: §fJede Aktion die durchgeführt wird gilt §efür alle Spieler die im Bannfokus sind! Es ist möglich, dass ein anderer Spectator ebenfalls das Banmemu sehen kann  und ebenfalls grade zur selben Zeit den Spieler untersucht (§e/function givemenuperm§f)
 banmenu.message=§fDiese §eNachricht §fwurde an alle die im §eBannfokus stehen geschickt§f.
 banmenu.addfocus=§fDu hast §eeinen weiteren Spieler §fzum Bannfokus hinzugefügt. §cNotiz: §fNur Spieler die  §egefreezed sind §fkönnen im Fokus sein .
 banmenu.refreshfocus=§Alle die gefreezed waren wurden entfernt und ein neuer Spieler wurde  §egefreezed§f.
-list.alive=§aLebende Spieler:
-list.freezed=§cGefreezed:
-list.spectator=§bSpectator:
-list.other=§fOther:
+banmenu.confirmation.info=§cDiese(r) Spieler werden gebannt: §4%s
+baninfo.deterrence=%s wurde für §e%s §fvon §e%s§f gebannt.
+baninfo.staff.name=%s§fSpielername(n): %s
+baninfo.staff.reason= §fBanngrund: §e%s
+baninfo.staff.involved=§fInvolvierte Teammitglieder: §e%s
+baninfo.staff.duration=§fDauer: §e%s
+list.alive=§aLebende Spieler: %s
+list.freezed=§cGefreezed: §f%s
+list.spectator=§bSpectator: §f%s
+list.other=§fOther: %s
 help1=§eFixspawn>> §fSollte der Spawn geschädigt oder gegrieft worden sein kannst du es mit einem command reparieren.
 help2=§eGamemode>> §fEntfernt dein Vanish und du bekommst die Fähigkeit Items aufzusammeln.
 help3=§eGivehost>> §fSollte nur gemacht werden nachdem das Spiel gestartet hat. Du musst den anderen Host den Tag §ebecomehost§f geben.
@@ -137,13 +145,15 @@ dead.countdown=§fDu wirst in §e%s Sekunden §fgekickt.
 ##clearlag
 clearlag.countdown=§cClearlag>> §fItems auf dem Boden werden in §e%s Sekunden gelöscht§f.
 clearlag.finish=§cClearlag>> §eItems §fwurden gelöscht.
-##delayedstart
+##delayedstart and respawn
 delayedstart.info=§aLauf auf die Druckplatte um einen Delaystart zu bekommen!
+respawn.info=Du hast §e%s %fwiederbelebt.
 ##kills
 ownkills.amount=§bDeine Kills: §f%s
 ##teamsystem ids
 team.can.join=§aDu bist Team §e%s §abeigetreten
 team.cant.join=§cDieses Team ist bereits voll.
+team.display=§fDein Team: §e%s
 team.leave=§cDu hast das Team verlassen.
 ##perks
 perk.default.select=§fDu hast die Partikel %s §r[§eDefault§r] ausgewählt.
@@ -169,6 +179,7 @@ scatter.choose=§dDu hast ausgewählt in der Nähe von §6%s §dauf der Map zu s
 scatter.info=§4Aufgrund eines §d§lVIP §r§4in deinem Team, ist deine Scatterposition besimmt.
 ##spectate
 spectate.message=§eDu bist nun Zuschauer des UHCs und bist für andere Spieler unsichtbar.
+spectate.notification=§e%s §fist nun Zuschauer des UHCs.
 ##border
 border.countdown.750=§cBorder>> §eBorder §fverkleinert sich zu §e750 §fin §e%s Sekunden§f.
 border.countdown.500=§cBorder>> §eBorder §fverkleinert sich zu §e500 §fin §e%s Sekunden§f.

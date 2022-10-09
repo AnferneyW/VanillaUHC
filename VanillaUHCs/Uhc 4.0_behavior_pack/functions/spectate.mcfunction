@@ -15,4 +15,5 @@ ability @p mayfly true
 execute @s[tag=!banmenu] ~ ~ ~ tp @p @r[tag=playing]
 tellraw @s[tag=!banmenu] {"rawtext":[{"translate":"spectate.message"}]}
 execute @s[tag=!mainhost] ~ ~ ~ tell @a[tag=mainhost] §ais now spectating the match.
+execute @s[tag=!mainhost] ~ ~ ~ tellraw @a[tag=mainhost] {"rawtext":[{"translate":"spectate.notification","with":{"rawtext":[{"selector":"@s"}]}}]}
 replaceitem entity @s[tag=mainhost,tag=!clearlag] slot.hotbar 1 uhc:clearlag

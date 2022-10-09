@@ -28,7 +28,6 @@ execute @s[tag=mainhost] ~ ~ ~ scoreboard players operation @p[tag=becomehost] b
 execute @s[tag=mainhost] ~ ~ ~ scoreboard players operation @p[tag=becomehost] timings = @s timings
 execute @s[tag=mainhost] ~ ~ ~ scoreboard players operation @p[tag=becomehost] endborder = @s endborder
 execute @s[tag=mainhost] ~ ~ ~ scoreboard players operation @p[tag=becomehost] ruler = @s ruler
-execute @s[tag=mainhost] ~ ~ ~ scoreboard players operation @p[tag=becomehost] menutimer = @s menutimer
 execute @s[tag=mainhost] ~ ~ ~ tag @a[tag=becomehost] add mainhost
 execute @a[tag=becomehost,tag=mainhost] ~ ~ ~ tellraw @a[tag=!becomehost,tag=mainhost] {"rawtext":[{"text":"§a§lThe action was successful!"}]}
 tellraw @s[tag=!mainhost] {"rawtext":[{"translate":"permission.denied"}]}

@@ -62,7 +62,6 @@ scoreboard objectives add particle dummy
 scoreboard objectives add addsc dummy
 scoreboard objectives add positions dummy
 scoreboard objectives add banreason dummy
-scoreboard objectives add menutimer dummy
 #objectives punkte setzen
 scoreboard players set @s exp_gameplay 0
 scoreboard players set @s edu_edition 0
