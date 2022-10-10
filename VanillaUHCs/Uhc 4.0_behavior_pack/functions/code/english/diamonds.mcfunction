@@ -1,2 +1,2 @@
-execute @e[type=item,name=Diamond,tag=!messaged] ~ ~ ~ execute @p[tag=playing] ~ ~ ~ tell @a[tag=vanished] §efound 1 §bDiamond!
+execute @e[type=item,name=Diamond,tag=!messaged] ~ ~ ~ execute @p[tag=playing] ~ ~ ~ tellraw @a[tag=vanished] {"rawtext":[{"translate":"ore.examination","with":{"rawtext":[{"selector":"@s"},{"text":"1 Diamond"}]}}]}
 tag @e[type=item,name=Diamond] add messaged

@@ -11,7 +11,7 @@ execute @e[type=item,name="Raw Gold"] ~ ~ ~ scoreboard players set @p[tag=playin
 execute @s[tag=mainhost,scores={enchantless=0}] ~ ~ ~ execute @a[tag=playing,scores={detect_gold=1}] ~ ~ ~ xp 2 @p[tag=playing]
 execute @s[tag=mainhost,scores={limitations=0}] ~ ~ ~ execute @a[tag=playing,scores={detect_gold=1}] ~ ~ ~ give @s gold_ingot 1
 execute @a[tag=mainhost,scores={limitations=1}] ~ ~ ~ execute @a[tag=playing,scores={detect_gold=1,gold_limit=0..31}] ~ ~ ~ give @s gold_ingot 1
-execute @a[tag=playing,scores={detect_gold=1}] ~ ~ ~ tell @a[tag=vanished] §efound 1 §6Gold!
+execute @a[tag=playing,scores={detect_gold=1}] ~ ~ ~ tellraw @a[tag=vanished] {"rawtext":[{"translate":"ore.examination","with":{"rawtext":[{"selector":"@s"},{"text":"1 Gold"}]}}]}
 execute @a[tag=playing,scores={detect_gold=1}] ~ ~ ~ scoreboard players add @s gold_limit 1
 execute @a[tag=playing,scores={detect_gold=1}] ~ ~ ~ kill @e[type=item,name="Raw Gold",r=10,c=1]
 execute @a[tag=playing,scores={detect_gold=1}] ~ ~ ~ scoreboard players set @s detect_gold 0
