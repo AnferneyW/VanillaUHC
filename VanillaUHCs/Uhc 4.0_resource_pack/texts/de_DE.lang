@@ -181,6 +181,7 @@ scatter.info=§4Aufgrund eines §d§lVIP §r§4in deinem Team, ist deine Scatter
 ##spectate
 spectate.message=§eDu bist nun Zuschauer des UHCs und bist für andere Spieler unsichtbar.
 spectate.notification=§e%s §fist nun Zuschauer des UHCs.
+spectate.notification.ore=§e%s §fhat §e% §fgefunden.
 ##border
 border.countdown.750=§cBorder>> §eBorder §fverkleinert sich zu §e750 §fin §e%s Sekunden§f.
 border.countdown.500=§cBorder>> §eBorder §fverkleinert sich zu §e500 §fin §e%s Sekunden§f.
