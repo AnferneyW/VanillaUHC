@@ -13,7 +13,7 @@ execute @a[tag=vip,tag=!vjoined,tag=!mainhost] ~ ~ ~ summon fireworks_rocket ~-2
 execute @a[tag=vip,tag=!vjoined,tag=!mainhost] ~ ~ ~ summon fireworks_rocket ~2 ~1 ~
 execute @a[tag=vip,tag=!vjoined,tag=!mainhost] ~ ~ ~ summon fireworks_rocket ~ ~1 ~-2
 execute @a[tag=vip,tag=!vjoined,tag=!mainhost] ~ ~ ~ summon fireworks_rocket ~ ~1 ~2
-execute @a[tag=vip,tag=!vjoined,tag=!mainhost] ~ ~ ~ say §r [§d§lVIP§r] §djoined the game!
+execute @a[tag=vip,tag=!vjoined,tag=!mainhost] ~ ~ ~ tellraw @a {"rawtext":[{"translate":"vip.joined","with":{"rawtext":[{"selector":"@s"}]}}]}
 execute @a[tag=vip,tag=!vjoined,tag=!mainhost] ~ ~ ~ title @s title §d§lWelcome <3
 execute @a[tag=vip,tag=!vjoined,tag=!mainhost] ~ ~ ~ tag @s add vjoined
 replaceitem entity @a[tag=vip,tag=!voting,tag=!mainhost] slot.inventory 3 stained_glass_pane 1 4

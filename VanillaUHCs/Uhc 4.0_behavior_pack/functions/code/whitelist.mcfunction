@@ -22,4 +22,4 @@ tag spartan_emil add whitelist
 tag kardoffelqreq add whitelist
 tag akxme23 add whitelist
 #kicken
-kick @a[tag=!whitelist] §lWhitelist
+kick @a[tag=!whitelist] §f§lWhitelist

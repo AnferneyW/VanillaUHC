@@ -8,11 +8,9 @@ execute @a[tag=vanished,tag=tp] ~ ~ ~ function code/english/tp
 #freezing
 execute @s[tag=mainhost] ~ ~ ~ execute @e[type=item,name=§bFreeze] ~ ~ ~ execute @p[tag=playing,tag=!freeze,r=10] ~ ~ ~ tag @p[tag=mainhost] add freezing
 execute @p[tag=mainhost,tag=freezing] ~ ~ ~ execute @p[tag=playing,r=10] ~ ~ ~ function code/freeze 
-execute @p[tag=mainhost,tag=freezing] ~ ~ ~ tag @p remove freezing
 #unfreezing
 execute @p[tag=mainhost] ~ ~ ~ execute @e[type=item,name=§4Unfreeze,r=2] ~ ~ ~ execute @p[tag=freeze,r=10] ~ ~ ~ tag @p[tag=mainhost] add unfreezing
 execute @p[tag=mainhost,tag=unfreezing] ~ ~ ~ execute @p[tag=freeze,r=10] ~ ~ ~ function code/unfreeze
-execute @p[tag=mainhost,tag=unfreezing] ~ ~ ~ tag @p remove unfreezing
 execute @e[type=hovertext:marker,name=freeze] ~ ~ ~ tp @p[tag=freeze,r=5] @e[type=hovertext:marker,name=freeze,r=1]
 #banmenu
 execute @a[tag=freeze] ~ ~ ~ execute @a[tag=mainhost,tag=!banmenu] ~ ~ ~ function code/english/openmenu

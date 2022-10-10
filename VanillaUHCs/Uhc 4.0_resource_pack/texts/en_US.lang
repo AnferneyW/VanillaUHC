@@ -182,6 +182,7 @@ clearlag.countdown=§cClearlag>> §fClearing Items in §e%s seconds§f.
 clearlag.finish=§cClearlag>> §eItems §fwere cleared.
 ##delayedstart and respawn
 delayedstart.info=§aWalk on the pressure plate to get a delayed start.
+delayedstart.announcement=§e%s §fstarted playing the uhc delayed.
 respawn.info=You respawned §e%s§f.
 ##kills
 ownkills.amount=§bYour Kills: §f%s
@@ -197,7 +198,7 @@ perk.vip.select=§dYou selected the %s §r[§6VIP§r] particles.
 perk.no.permission=§cFor this particles you need the §6VIP §crank.
 ##vip messages
 vip.cant.vote=§c2 §6VIP §cplayers already added 2 scenarios to the game.
-vip.joined=§dA §lVIP §r§djoined the game.
+vip.joined=§f[§d§lVIP§f] %s has joined the UHC.
 vip.scenario.vote=§6You can now add 1 Scenario to the game.
 vip.scenario.1=§fOak Sapling§e=Vanilla+
 vip.scenario.2=§fZombie Head§e=Peaceful

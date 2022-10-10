@@ -10,6 +10,7 @@ effect @s resistance 25 255 true
 effect @s instant_health 1 255 true
 execute @a[tag=mainhost,scores={ranked=2}] ~ ~ ~ execute @a[tag=delayed] ~ ~ ~ function code/english/chooseteam/setteams
 say §estarted playing the uhc delayed.
+tellraw @a {"rawtext":[{"translate":"delayedstart.announcement","with":{"rawtext":[{"selector":"@s"}]}}]}
 clear @s
 give @s cooked_beef 20
 tag @s remove delayed

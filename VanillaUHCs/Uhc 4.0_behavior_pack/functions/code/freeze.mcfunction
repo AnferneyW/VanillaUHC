@@ -1,4 +1,5 @@
 kill @e[type=item,name=§bFreeze]
+tag @p[tag=mainhost] remove freezing
 summon hovertext:marker freeze ~ ~ ~
 effect @s resistance 99999 255 true
 gamemode a @s

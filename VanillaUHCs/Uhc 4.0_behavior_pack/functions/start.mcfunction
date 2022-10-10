@@ -20,4 +20,3 @@ execute @s[tag=mainhost,scores={starting_timer=3..530}] ~ ~ ~ scoreboard players
 execute @s[tag=mainhost,scores={starting_timer=541..695}] ~ ~ ~ tellraw @s {"rawtext":[{"translate":"start.failed"}]}
 #no permission
 tellraw @s[tag=!mainhost] {"rawtext":[{"translate":"permission.denied"}]}
-#lol

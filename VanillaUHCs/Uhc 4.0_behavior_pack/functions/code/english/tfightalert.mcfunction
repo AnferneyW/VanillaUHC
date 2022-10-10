@@ -48,3 +48,4 @@ execute @a[x=0,y=214,z=0,rm=10,tag=playing,tag=team24] ~ ~ ~ execute @a[tag=play
 execute @a[x=0,y=214,z=0,rm=10,tag=playing,tag=team24] ~ ~ ~ execute @a[tag=playing,tag=!team24,r=5] ~ ~ ~ tag @s add messaged
 execute @a[x=0,y=214,z=0,rm=10,tag=playing,tag=team25] ~ ~ ~ execute @a[tag=playing,r=5,tag=!messaged,tag=!team25] ~ ~ ~ tell @a[tag=vanished] §c§lis now fighting!
 execute @a[x=0,y=214,z=0,rm=10,tag=playing,tag=team25] ~ ~ ~ execute @a[tag=playing,tag=!team25,r=5] ~ ~ ~ tag @s add messaged
+#new system, use playeramount objective for teamdifference, later

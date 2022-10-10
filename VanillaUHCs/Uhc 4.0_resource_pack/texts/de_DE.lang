@@ -147,6 +147,7 @@ clearlag.countdown=§cClearlag>> §fItems auf dem Boden werden in §e%s Sekunden
 clearlag.finish=§cClearlag>> §eItems §fwurden gelöscht.
 ##delayedstart and respawn
 delayedstart.info=§aLauf auf die Druckplatte um einen Delaystart zu bekommen!
+delayedstart.announcement=§e%s §fnimmt nun verspätet am UHC teil.
 respawn.info=Du hast §e%s %fwiederbelebt.
 ##kills
 ownkills.amount=§bDeine Kills: §f%s
@@ -162,7 +163,7 @@ perk.vip.select=§dDu hast die %s §r[§6VIP§r] Partikel ausgewählt.
 perk.no.permission=§cFür diese Partikel benötigst du den §6VIP §cRang.
 ##vip messages
 vip.cant.vote=§c2 §6VIP §cSpieler haben bereits 2 Szenarien zum UHC hinzugefügt.
-vip.joined=§dEin §lVIP §r§dist dem UHC beigetreten!
+vip.joined=§f[§d§lVIP§f] %s ist dem UHC beigetreten.
 vip.scenario.vote=§6Du kannst nun ein Szenario zum UHC hinzufügen.
 vip.scenario.1=§fEichensetzling§e=Vanilla+
 vip.scenario.2=§fZombiekopf§e=Peaceful
