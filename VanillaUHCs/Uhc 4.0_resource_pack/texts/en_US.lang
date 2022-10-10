@@ -185,6 +185,7 @@ delayedstart.info=§aWalk on the pressure plate to get a delayed start.
 respawn.info=You respawned §e%s§f.
 ##kills
 ownkills.amount=§bYour Kills: §f%s
+kill.invincibility=§e%s §fis invincible for 15 seconds.
 ##teamsystem ids
 team.can.join=§aYou joined Team §e%s§a.
 team.cant.join=§cThe team is already full.

@@ -150,6 +150,7 @@ delayedstart.info=§aLauf auf die Druckplatte um einen Delaystart zu bekommen!
 respawn.info=Du hast §e%s %fwiederbelebt.
 ##kills
 ownkills.amount=§bDeine Kills: §f%s
+kill.invincibility=§e%s §fist für 15 Sekunden unverwundbar.
 ##teamsystem ids
 team.can.join=§aDu bist Team §e%s §abeigetreten
 team.cant.join=§cDieses Team ist bereits voll.
