@@ -217,6 +217,7 @@ scatter.info=§4Cause of a §d§lVIP §r§4in your team, your scatterposition is
 spectate.message=§eYou are now spectating the uhc and not visible for other players.
 spectate.notification=§e%s §fis now spectator of the UHC.
 spectate.notification.ore=§e%s §fhas found §e%§f.
+spectate.notification.fight=§e%s §fis fighting
 ##border
 border.countdown.750=§cBorder>> §eBordershrink §fto §e750 §fin §e%s seconds§f.
 border.countdown.500=§cBorder>> §eBordershrink §fto §e500 §fin §e%s seconds§f.
