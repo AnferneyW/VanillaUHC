@@ -1,4 +1,4 @@
-execute @s[tag=mainhost,scores={createprocess=0}] ~ ~ ~ clone 0 98 0 0 98 0 0 0 0 replace move
+execute @s[tag=mainhost,scores={createprocess=0}] ~ ~ ~ clone 0 98 0 0 98 0 0 -64 0 replace move
 execute @s[tag=mainhost,scores={createprocess=0}] ~ ~ ~ scoreboard players set @p createprocess 1
 execute @s[tag=mainhost,scores={createprocess=-30..17}] ~ ~ ~ scoreboard players add @p createtimer 1
 execute @s[tag=mainhost,scores={createprocess=1..17,createtimer=21}] ~ ~ ~ scoreboard players set @p createtimer 0
@@ -284,15 +284,15 @@ execute @s[tag=mainhost,scores={createprocess=6,doubleores=3}] ~ ~ ~ execute @e[
 execute @s[tag=mainhost,scores={createprocess=6,doubleores=3}] ~ ~ ~ scoreboard players set @p doubleores 0
 execute @s[tag=mainhost,scores={createprocess=6}] ~ ~ ~ execute @e[type=item,name="Lime Wool"] ~ ~ ~ scoreboard players set @p createprocess 7
 #zwischenschritt
-execute @s[tag=mainhost,scores={createprocess=7}] ~ ~ ~ setblock -1 0 1 chest
+execute @s[tag=mainhost,scores={createprocess=7}] ~ ~ ~ setblock -1 -64 1 chest
 execute @s[tag=mainhost,scores={createprocess=7}] ~ ~ ~ kill @e[type=item]
 execute @s[tag=mainhost,scores={createprocess=7}] ~ ~ ~ clear @p
 execute @s[tag=mainhost,scores={createprocess=7,diamondless=1}] ~ ~ ~ scoreboard players set @s blooddiamonds 0
 execute @s[tag=mainhost,scores={createprocess=7,blooddiamonds=1}] ~ ~ ~ scoreboard players set @s diamondless 0
-execute @s[tag=mainhost,scores={createprocess=7,diamondless=1}] ~ ~ ~ clone 0 101 2 0 101 2 -1 0 1
-execute @s[tag=mainhost,scores={createprocess=7,diamondless=0,doubleores=1,blooddiamonds=0}] ~ ~ ~ clone 0 101 2 0 101 2 1 0 -1 replace move
-execute @s[tag=mainhost,scores={createprocess=7,blooddiamonds=1,doubleores=0}] ~ ~ ~ clone 0 101 3 0 101 3 1 0 -1 replace move
-execute @s[tag=mainhost,scores={createprocess=7,blooddiamonds=1,doubleores=1}] ~ ~ ~ clone 0 101 2 0 101 2 1 0 -1 replace move
+execute @s[tag=mainhost,scores={createprocess=7,diamondless=1}] ~ ~ ~ clone 0 101 2 0 101 2 -1 -64 1
+execute @s[tag=mainhost,scores={createprocess=7,diamondless=0,doubleores=1,blooddiamonds=0}] ~ ~ ~ clone 0 101 2 0 101 2 1 -64 -1 replace move
+execute @s[tag=mainhost,scores={createprocess=7,blooddiamonds=1,doubleores=0}] ~ ~ ~ clone 0 101 3 0 101 3 1 -64 -1 replace move
+execute @s[tag=mainhost,scores={createprocess=7,blooddiamonds=1,doubleores=1}] ~ ~ ~ clone 0 101 2 0 101 2 1 -64 -1 replace move
 execute @s[tag=mainhost,scores={createprocess=7,ranked=0..1}] ~ ~ ~ scoreboard players set @p createprocess 11
 execute @s[tag=mainhost,scores={createprocess=7,ranked=2}] ~ ~ ~ function code/customset2
 #settings
@@ -343,7 +343,7 @@ execute @s[tag=mainhost,scores={createprocess=17,goldenheads=0..1}] ~ ~ ~ clear 
 execute @s[tag=mainhost,scores={createprocess=17,goldenheads=0,diamondless=0}] ~ ~ ~ scoreboard players set @p createprocess 18
 execute @s[tag=mainhost,scores={createprocess=17,goldenheads=0,diamondless=1}] ~ ~ ~ scoreboard players set @p createprocess -19
 execute @s[tag=mainhost,scores={createprocess=17,goldenheads=1}] ~ ~ ~ scoreboard players set @p createprocess -19
-execute @s[tag=mainhost,scores={createprocess=-19,goldenheads=1}] ~ ~ ~ replaceitem block -1 0 1 slot.container 22 uhc:head
+execute @s[tag=mainhost,scores={createprocess=-19,goldenheads=1}] ~ ~ ~ replaceitem block -1 -64 1 slot.container 22 uhc:head
 #nether timebomb
 execute @s[tag=mainhost,scores={createprocess=-19,nether=1}] ~ ~ ~ scoreboard players set @p createprocess -20
 execute @s[tag=mainhost,scores={createprocess=-19,nether=0}] ~ ~ ~ scoreboard players set @p createprocess 18
@@ -351,13 +351,13 @@ execute @s[tag=mainhost,scores={createprocess=-20}] ~ ~ ~ gamemode c @s
 execute @s[tag=mainhost,scores={createprocess=-20}] ~ ~ ~ setblock ~ ~ ~ portal
 execute @s[tag=mainhost,scores={createprocess=-20}] ~ ~ ~ detect ~ ~-1 ~ obsidian 0 scoreboard players set @s createprocess -21
 execute @s[tag=mainhost,scores={createprocess=-21}] ~ ~ ~ tickingarea add -1 100 -1 1 100 1 nether
-execute @s[tag=mainhost,scores={createprocess=-21}] ~ ~ ~ setblock -1 0 1 chest
+execute @s[tag=mainhost,scores={createprocess=-21}] ~ ~ ~ setblock -1 -64 1 chest
 execute @s[tag=mainhost,scores={createprocess=-21}] ~ ~ ~ fill ~-4 ~-1 ~-4 ~4 ~3 ~4 air 0 replace obsidian
 execute @s[tag=mainhost,scores={createprocess=-21}] ~ ~ ~ fill ~-4 ~-1 ~-4 ~4 ~3 ~4 air 0 replace portal
 execute @s[tag=mainhost,scores={createprocess=-21}] ~ ~ ~ setblock 0 127 0 portal
 execute @s[tag=mainhost,scores={createprocess=-21}] ~ ~ ~ tp @s 0 127 1
 execute @s[tag=mainhost,scores={createprocess=-21}] ~ ~ ~ scoreboard players set @s createprocess -22
-execute @s[tag=mainhost,scores={createprocess=-22,goldenheads=1}] ~ ~ ~ replaceitem block -1 0 1 slot.container 22 uhc:head
+execute @s[tag=mainhost,scores={createprocess=-22,goldenheads=1}] ~ ~ ~ replaceitem block -1 -64 1 slot.container 22 uhc:head
 execute @s[tag=mainhost,scores={createprocess=-22}] ~ ~ ~ gamemode c 
 execute @s[tag=mainhost,scores={createprocess=-22}] ~ ~ ~ tp @s 0 127 0
 execute @s[tag=mainhost,scores={createprocess=-22}] ~ ~ ~ scoreboard players set @s createprocess -26

@@ -1,4 +1,4 @@
-execute @e[type=item,name=Dead,r=10] ~ ~ ~ clone -1 0 1 -1 0 1 ~ ~-1 ~
+execute @e[type=item,name=Dead,r=10] ~ ~ ~ clone -1 -64 1 -1 -64 1 ~ ~-1 ~
 execute @a[tag=mainhost,scores={noclean=1}] ~ ~ ~ execute @a[tag=gotkill] ~ ~ ~ scoreboard players set @a[tag=gotkill] timings 0
 execute @a[tag=mainhost,scores={timebomb=1}] ~ ~ ~ execute @a[tag=gotkill] ~ ~ ~ execute @e[type=item,name=Dead,r=10] ~ ~ ~ summon hovertext:hovertext "§6§lTimebomb:" ~ ~-0.8 ~
 kill @e[type=item,name=Dead,r=10]
