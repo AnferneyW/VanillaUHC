@@ -73,10 +73,10 @@ execute @s[tag=mainhost,scores={starting_timer=591}] ~ ~ ~ clear @a
 execute @s[tag=mainhost,scores={starting_timer=591}] ~ ~ ~ kill @e[type=!player]
 execute @s[tag=mainhost,scores={starting_timer=591,teamsize=2..5}] ~ ~ ~ scoreboard objectives setdisplay list team
 #rankedanimation
-execute @s[tag=mainhost,scores={starting_timer=595,ranked=1..2}] ~ ~ ~ replaceitem entity @a[tag=playing] slot.weapon.offhand 1 totem_of_undying
-execute @s[tag=mainhost,scores={starting_timer=595,ranked=1..2}] ~ ~ ~ effect @a[tag=playing] instant_damage 1 255 true
+execute @s[tag=mainhost,scores={starting_timer=595,ranked=1..2}] ~ ~ ~ playsound random.totem @a[tag=playing]
+execute @s[tag=mainhost,scores={starting_timer=595,ranked=1..2}] ~ ~ ~ execute @a[tag=playing] ~ ~ ~ particle minecraft:sonic_explosion ~ ~1 ~
 execute @s[tag=mainhost,scores={starting_timer=595,ranked=1..2}] ~ ~ ~ titleraw @a subtitle {"rawtext":[{"translate":"scatter.players"}]}
-execute @s[tag=mainhost,scores={starting_timer=595,ranked=0..1}] ~ ~ ~ title @a title §a§lUHC 4.0
+execute @s[tag=mainhost,scores={starting_timer=595,ranked=0..1}] ~ ~ ~ title @a title §flUHC §e4.0
 execute @s[tag=mainhost,scores={starting_timer=595,ranked=2}] ~ ~ ~ title @a title §a§lUHC Tournament
 execute @s[tag=mainhost,scores={starting_timer=596,ranked=1..2}] ~ ~ ~ effect @a[tag=playing] clear
 #players
@@ -93,7 +93,7 @@ execute @s[tag=mainhost,scores={starting_timer=625..635}] ~ ~ ~ execute @a[tag=p
 execute @s[tag=mainhost,scores={starting_timer=636}] ~ ~ ~ execute @a[tag=playing] ~ ~ ~ kill @e[type=hovertext:marker,name=scatterpos]
 #createscoreboard
 execute @s[tag=mainhost,scores={starting_timer=599}] ~ ~ ~ scoreboard objectives setdisplay sidebar uhc
-execute @s[tag=mainhost,scores={starting_timer=600}] ~ ~ ~ scoreboard players set "§btwitter.com/RealMZLP" uhc 1
+execute @s[tag=mainhost,scores={starting_timer=600}] ~ ~ ~ scoreboard players set "§bdiscord.gg/KW5JuBH" uhc 1
 #gamestart
 execute @s[tag=mainhost,scores={starting_timer=600}] ~ ~ ~ effect @a[tag=playing] blindness 35 255 true
 execute @s[tag=mainhost,scores={starting_timer=600}] ~ ~ ~ effect @a[tag=playing] slowness 35 255 true
@@ -159,7 +159,7 @@ execute @s[tag=mainhost,scores={starting_timer=680}] ~ ~ ~ tellraw @a {"rawtext"
 execute @s[tag=mainhost,scores={starting_timer=680}] ~ ~ ~ gamerule domobspawning true
 execute @s[tag=mainhost,scores={starting_timer=680,peaceful=0}] ~ ~ ~ difficulty e
 execute @s[tag=mainhost,scores={starting_timer=685}] ~ ~ ~ tellraw @a {"rawtext":[{"translate":"game.start", "with":["5"]}]}
-execute @s[tag=mainhost,scores={starting_timer=685}] ~ ~ ~ scoreboard players reset "§btwitter.com/RealMZLP" uhc
+execute @s[tag=mainhost,scores={starting_timer=685}] ~ ~ ~ scoreboard players reset "§bdiscord.gg/KW5JuBH" uhc
 execute @s[tag=mainhost,scores={starting_timer=686}] ~ ~ ~ scoreboard players set "------------" uhc 53
 execute @s[tag=mainhost,scores={starting_timer=686}] ~ ~ ~ scoreboard players set "§e00:00" uhc 52
 execute @s[tag=mainhost,scores={starting_timer=686}] ~ ~ ~ scoreboard players set "§1" uhc 51
