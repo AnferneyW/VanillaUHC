@@ -193,8 +193,8 @@ team.cant.join=§cThe team is already full.
 team.display=§fYour team: §e%s
 team.leave=§cYou left the team.
 ##perks
-perk.default.select=§fYou selected the %s §r[§eDefault§r] particles.
-perk.vip.select=§dYou selected the %s §r[§6VIP§r] particles.
+perk.default.select=§fYou selected the %s §f[§eDefault§f] particles.
+perk.vip.select=§fYou selected the §e%s §f[§6VIP§f] particles§f.
 perk.no.permission=§cFor this particles you need the §6VIP §crank.
 ##vip messages
 vip.cant.vote=§c2 §6VIP §cplayers already added 2 scenarios to the game.

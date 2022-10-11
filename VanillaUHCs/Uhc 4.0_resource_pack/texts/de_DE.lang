@@ -158,8 +158,8 @@ team.cant.join=§cDieses Team ist bereits voll.
 team.display=§fDein Team: §e%s
 team.leave=§cDu hast das Team verlassen.
 ##perks
-perk.default.select=§fDu hast die Partikel %s §r[§eDefault§r] ausgewählt.
-perk.vip.select=§dDu hast die %s §r[§6VIP§r] Partikel ausgewählt.
+perk.default.select=§fDu hast die Partikel %s §f[§eDefault§f] ausgewählt.
+perk.vip.select=§fDu hast die §e%s §f[§6VIP§f] Partikel ausgewählt.
 perk.no.permission=§cFür diese Partikel benötigst du den §6VIP §cRang.
 ##vip messages
 vip.cant.vote=§c2 §6VIP §cSpieler haben bereits 2 Szenarien zum UHC hinzugefügt.
