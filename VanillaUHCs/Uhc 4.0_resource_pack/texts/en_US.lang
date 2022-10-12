@@ -61,6 +61,7 @@ vanish.off=§aYou are now visible for other players and can pick up items.
 fixed.spawn=§aThe Spawnbarriers were placed again and optimated.
 open.banmenu=§cYou can now look at the banmenu in your inventory.
 banmenu.access.granted=§cBanmenu access was granted to: %s
+banmenu.access.granted.failed=§fNo player could receive the menu permissions. §eNote §fthat the player needs to be in §eVanish §fand registered as a §eTeamler§f.
 ore.examination=§e%s §fmined already §e%s %s§f.
 level.examination=§e%s §fhas between §e%s §fand §e%s §flevels.
 level.examination.outside=§e%s §fhas over §e%s §flevels.
