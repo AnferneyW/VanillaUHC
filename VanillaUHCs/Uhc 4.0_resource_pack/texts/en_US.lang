@@ -173,6 +173,7 @@ config.to4=§eTeamsize: §fTO4
 config.to5=§eTeamsize: §fTO5
 config.scenarios=Scenarios:
 ##freeze messages
+freeze.team.info=§f[§eStaffnotification§f] §e%s §fwas freezed.
 freeze.info1=§fYou were suspected of §exraying§f. Send a §escreenshot §fto the host. §cYou are allowed to leave and send the screenshot, but you're not allowed to rejoin before sending it then.
 freeze.info2=§fYou were suspected of §echeating§f. §fIf you are §eWin10 §fyou have to create a ticket in the support category and write your anydesk code there. When you're §emobile §fyou have to take a screenshot from the §eapps §fthat you have currently open. 
 freeze.finish=§fYou can now move again, thanks for your cooperation.

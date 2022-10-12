@@ -12,6 +12,6 @@ execute @e[type=hovertext:marker,name=freeze,r=5] ~ ~ ~ fill ~-1 ~-1 ~-1 ~1 ~2 ~
 execute @e[type=hovertext:marker,name=freeze,r=5] ~ ~ ~ fill ~-1 ~-1 ~-1 ~1 ~2 ~1 barrier 0 replace tallgrass
 execute @e[type=hovertext:marker,name=freeze,r=5] ~ ~ ~ fill ~ ~ ~ ~ ~1 ~ air
 tp @s @e[type=hovertext:marker,name=freeze,r=5]
-tell @a[tag=teamler,tag=!mainhost] §cis now freezed.
+tellraw @a[tag=teamler,tag=!mainhost] {"rawtext":[{"translate":"freeze.team.info","with":{"rawtext":[{"selector":"@s"}]}}]}
 title @s subtitle §4Do not leave.
 title @s title §c§lFreeze

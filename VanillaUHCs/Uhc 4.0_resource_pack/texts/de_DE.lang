@@ -18,7 +18,7 @@ setup.progress.check.lang=§aÜberprüfen ob Sprache verfügbar ist...
 ##
 ##inteam ids
 host.display=§e%s§f out of 50 possible players.
-spectate.activate.team=§aDu bist nun im Spectator mode. Diese Einstellung §ckann nicht mehr, §a10 Sekunden vor dem Spiel geändert werden
+spectate.activate.team=§aDu bist nun im Spectatormodus. Diese Einstellung §ckann nicht mehr, §a10 Sekunden vor dem Spiel geändert werden.
 spectate.deactivate.team=§aDu wurdest als normaler Spieler registriert.
 permission.denied=§4Du hast keine Berechtigungen diesen Command auszuführen.
 host.instruction=§cBleibe in der Lobby bis sie komplett verschwunden ist.
@@ -139,6 +139,7 @@ config.to4=§eTeamgröße: §fTO4
 config.to5=§eTeamgröße: §fTO5
 config.scenarios=Szenarien:
 ##freeze messages
+freeze.team.info=§f[§eStaffnotification§f] §e%s §fwurde gefreezed.
 freeze.info1=§fDu wurdest verdächtigt auf §eXraying§f. Schick bitte ein §eScreenshot §fan den Host. §cDu darfst gerne das Spiel verlassen um den Screen zu senden, jedoch darfst du nicht wieder joinen bevor du diesen gesendet hast.
 freeze.info2=§fDu wirst auf §eCheating§f verdächtigt. §fWenn du ein §eWin10 §fSpieler bist, musst du ein Ticket eröffnen und uns dein Anydesk Code schicken. Solltest du ein §eMobile §fsein, musst du ein Screenshot von deinen zuletzt geöffneten §eApps §fschicken. 
 freeze.finish=§fDu kannst dich nun wieder bewegen, danke für deine Kooperation.
