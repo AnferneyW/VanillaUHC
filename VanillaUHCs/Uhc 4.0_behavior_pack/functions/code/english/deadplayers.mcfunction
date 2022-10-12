@@ -8,4 +8,5 @@ execute @a[tag=!mainhost,tag=!playing,scores={timings=1}] ~ ~ ~ tellraw @s {"raw
 execute @a[tag=!mainhost,tag=!playing,scores={timings=60}] ~ ~ ~ tellraw @s {"rawtext":[{"translate":"dead.countdown", "with":["60"]}]}
 execute @a[tag=!mainhost,tag=!playing,scores={timings=90}] ~ ~ ~ tellraw @s {"rawtext":[{"translate":"dead.countdown", "with":["30"]}]}
 execute @a[tag=!mainhost,tag=!playing,scores={timings=110}] ~ ~ ~ tellraw @s {"rawtext":[{"translate":"dead.countdown", "with":["10"]}]}
-execute @a[tag=!mainhost,tag=!playing,scores={timings=120}] ~ ~ ~ kick @s §4§lDead/Game already started
+#execute @a[tag=!mainhost,tag=!playing,scores={timings=120}] ~ ~ ~ kick @s §4§lDead/Game already started
+execute @a[tag=!mainhost,tag=!playing,scores={timings=120}] ~ ~ ~ kick @s
