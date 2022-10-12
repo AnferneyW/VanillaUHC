@@ -106,7 +106,7 @@ commands.message.display.incoming=§o[MSG] %2$s
 multiplayer.player.joined=%s joined the UHC.
 multiplayer.player.left=%s left the UHC.
 ##changelog
-uhchelp.title=§fIf you have any §equestions/problems §f contact §e@RealMZLP §fon Twitter.
+uhchelp.title=§fIf you have any §equestions/problems join §ediscord.gg/KW5JuBH §fand open a §eticket§f.
 ##config1
 config1.1=§a§lRush §6Config:
 config1.2=§f-------------------
