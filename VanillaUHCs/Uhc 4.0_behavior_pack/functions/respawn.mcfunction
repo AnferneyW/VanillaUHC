@@ -9,6 +9,7 @@ titleraw @s[tag=mainhost] subtitle {"rawtext":[{"translate":"respawn.info","with
 title @p[tag=respawn] title §a§lYou were respawned.
 playsound random.screenshot @p[tag=respawn]
 scoreboard players reset @p[tag=respawn] timings
+scoreboard players set @p[tag=respawn,scores={kills=!0..}] kills 0
 effect @p[tag=respawn] clear
 effect @p[tag=respawn] night_vision 99999 255 true
 gamemode s @p[tag=respawn]
