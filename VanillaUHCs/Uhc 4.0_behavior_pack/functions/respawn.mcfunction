@@ -2,6 +2,7 @@ execute @s[tag=mainhost] ~ ~ ~ tag @p[x=0,y=214,z=0,r=10,tag=!mainhost] add resp
 tp @p[tag=respawn] @s[tag=mainhost]
 tag @p[tag=respawn] add playing
 tag @p[tag=respawn] remove vanished
+tag @p[tag=respawn] remove banned
 ability @p[tag=respawn] mayfly false
 title @s[tag=mainhost] title §f
 titleraw @s[tag=mainhost] subtitle {"rawtext":[{"translate":"respawn.info","with":{"rawtext":[{"selector":"@p[tag=respawn]"}]}}]}
