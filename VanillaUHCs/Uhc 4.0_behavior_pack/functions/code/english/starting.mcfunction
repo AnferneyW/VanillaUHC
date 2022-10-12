@@ -160,7 +160,7 @@ execute @s[tag=mainhost,scores={starting_timer=680}] ~ ~ ~ gamerule domobspawnin
 execute @s[tag=mainhost,scores={starting_timer=680,peaceful=0}] ~ ~ ~ difficulty e
 execute @s[tag=mainhost,scores={starting_timer=685}] ~ ~ ~ tellraw @a {"rawtext":[{"translate":"game.start", "with":["5"]}]}
 execute @s[tag=mainhost,scores={starting_timer=685}] ~ ~ ~ scoreboard players reset "§bdiscord.gg/KW5JuBH" uhc
-execute @s[tag=mainhost,scores={starting_timer=686}] ~ ~ ~ scoreboard players set "------------" uhc 53
+execute @s[tag=mainhost,scores={starting_timer=686}] ~ ~ ~ scoreboard players set "--------------------" uhc 53
 execute @s[tag=mainhost,scores={starting_timer=686}] ~ ~ ~ scoreboard players set "§e00:00" uhc 52
 execute @s[tag=mainhost,scores={starting_timer=686}] ~ ~ ~ scoreboard players set "§1" uhc 51
 execute @s[tag=mainhost,scores={starting_timer=686}] ~ ~ ~ scoreboard players set @p spectatesystem 1
