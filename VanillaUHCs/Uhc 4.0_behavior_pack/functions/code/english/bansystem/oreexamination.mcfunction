@@ -1,4 +1,4 @@
-execute @a[tag=banfocus] ~ ~ ~ tellraw @a[tag=banmenu] ~ ~ ~ {"rawtext":[{"translate":"ore.examination","with":{"rawtext":[{"selector":"@s"},{"score":{"name":"@s","objective":"iron_limit"}},{"text":"Iron"}]}}]}
-execute @a[tag=banfocus] ~ ~ ~ tellraw @a[tag=banmenu] ~ ~ ~ {"rawtext":[{"translate":"ore.examination","with":{"rawtext":[{"selector":"@s"},{"score":{"name":"@s","objective":"gold_limit"}},{"text":"Gold"}]}}]}
-execute @a[tag=banfocus] ~ ~ ~ tellraw @a[tag=banmenu] ~ ~ ~ {"rawtext":[{"translate":"ore.examination","with":{"rawtext":[{"selector":"@s"},{"score":{"name":"@s","objective":"diamond_limit"}},{"text":"Diamond(s)"}]}}]}
+execute @a[tag=banfocus] ~ ~ ~ tellraw @a[tag=banmenu] {"rawtext":[{"translate":"ore.examination","with":{"rawtext":[{"selector":"@s"},{"score":{"name":"@s","objective":"iron_limit"}},{"text":"Iron"}]}}]}
+execute @a[tag=banfocus] ~ ~ ~ tellraw @a[tag=banmenu] {"rawtext":[{"translate":"ore.examination","with":{"rawtext":[{"selector":"@s"},{"score":{"name":"@s","objective":"gold_limit"}},{"text":"Gold"}]}}]}
+execute @a[tag=banfocus] ~ ~ ~ tellraw @a[tag=banmenu] {"rawtext":[{"translate":"ore.examination","with":{"rawtext":[{"selector":"@s"},{"score":{"name":"@s","objective":"diamond_limit"}},{"text":"Diamond(s)"}]}}]}
 kill @e[type=item,name="§dExamining Ore Count"]
