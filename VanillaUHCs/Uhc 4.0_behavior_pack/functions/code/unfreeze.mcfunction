@@ -1,5 +1,4 @@
 kill @e[type=item,name=§4Unfreeze]
-tag @p[tag=mainhost] remove unfreezing
 effect @s clear
 effect @s night_vision 99999 255 true
 tellraw @s[tag=!getban] {"rawtext":[{"translate":"freeze.finish"}]}
