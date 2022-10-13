@@ -1,5 +1,5 @@
 scoreboard players add @s timer 1
-#displaykills
+#displaykills 
 function code/displaykills
 function code/banlist
 #events
