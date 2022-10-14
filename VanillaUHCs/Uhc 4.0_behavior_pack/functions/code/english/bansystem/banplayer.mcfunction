@@ -25,6 +25,7 @@ execute @r[tag=banfocus,scores={banreason=3}] ~ ~ ~ tellraw @p[tag=banner] {"raw
 execute @r[tag=banfocus,scores={banreason=4}] ~ ~ ~ tellraw @p[tag=banner] {"rawtext":[{"translate":"baninfo.staff.duration","with":{"rawtext":[{"text":"21 days \n§f--------------------"}]}}]}
 execute @r[tag=banfocus,scores={banreason=5}] ~ ~ ~ tellraw @p[tag=banner] {"rawtext":[{"translate":"baninfo.staff.duration","with":{"rawtext":[{"text":"3 days \n§f--------------------"}]}}]}
 execute @r[tag=banfocus,scores={banreason=6}] ~ ~ ~ tellraw @p[tag=banner] {"rawtext":[{"translate":"baninfo.staff.duration","with":{"rawtext":[{"text":"permanent \n§f--------------------"}]}}]}
+tag @p[tag=banner] remove banner
 #proceeding with the banned player
 tag @a[tag=banfocus] add getban
 execute @a[tag=banfocus] ~ ~ ~ function code/unfreeze
