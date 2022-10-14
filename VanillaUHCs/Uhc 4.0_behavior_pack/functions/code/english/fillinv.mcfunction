@@ -31,5 +31,5 @@ replaceitem entity @s slot.hotbar 3 keep uhc:slot
 replaceitem entity @s slot.hotbar 4 keep uhc:slot
 replaceitem entity @s slot.hotbar 5 keep uhc:slot
 replaceitem entity @s slot.hotbar 6 keep uhc:slot
-replaceitem entity @s[tag=!mainhost] slot.hotbar 7 keep uhc:slot
+replaceitem entity @s slot.hotbar 7 keep uhc:slot
 replaceitem entity @s[tag=!mainhost] slot.hotbar 8 keep uhc:slot
