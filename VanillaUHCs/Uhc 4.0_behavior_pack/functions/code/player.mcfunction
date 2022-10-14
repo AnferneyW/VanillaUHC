@@ -2,7 +2,7 @@
 execute @s[tag=mainhost,scores={ranked=0..1}] ~ ~ ~ replaceitem entity @a[tag=!mainhost,tag=team,tag=!voting] slot.hotbar 4 barrier
 #teamler
 tag MZLP add teamler
-tag lifeisagame15 add teamler
+tag raichubabayt add teamler
 tag p0tinq add teamler
 #vip
 execute @s[tag=mainhost,scores={ranked=0..1}] ~ ~ ~ function code/vip
