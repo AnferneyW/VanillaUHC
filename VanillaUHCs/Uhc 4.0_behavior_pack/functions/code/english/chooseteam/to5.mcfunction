@@ -1,5 +1,5 @@
 #jointeam
-execute @a[tag=!mainhost,tag=!team] ~ ~ ~ execute @e[type=hovertext:hovertext,r=1] ~ ~ ~ scoreboard players operation @p[tag=!mainhost,tag=!team] teamspaceleft = @e[type=hovertext:hovertext,r=1] teamspaceleft
+execute @a[tag=!mainhost,tag=!team,tag=!spectate] ~ ~ ~ execute @e[type=hovertext:hovertext,r=1] ~ ~ ~ scoreboard players operation @p[tag=!mainhost,tag=!team] teamspaceleft = @e[type=hovertext:hovertext,r=1] teamspaceleft
 #joinbar1
 execute @a[tag=!team,tag=!joinprocessteam1,scores={teamspaceleft=1..}] ~ ~ ~ execute @e[type=hovertext:hovertext,name="§eTeam 1",r=1] ~ ~ ~ tag @p add joinprocessteam1
 execute @a[tag=!team,tag=!joinprocessteam2,scores={teamspaceleft=1..}] ~ ~ ~ execute @e[type=hovertext:hovertext,name="§eTeam 2",r=1] ~ ~ ~ tag @p add joinprocessteam2
