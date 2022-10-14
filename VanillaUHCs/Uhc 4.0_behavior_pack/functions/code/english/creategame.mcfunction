@@ -348,18 +348,16 @@ execute @s[tag=mainhost,scores={createprocess=-19,goldenheads=1}] ~ ~ ~ replacei
 execute @s[tag=mainhost,scores={createprocess=-19,nether=1}] ~ ~ ~ scoreboard players set @p createprocess -20
 execute @s[tag=mainhost,scores={createprocess=-19,nether=0}] ~ ~ ~ scoreboard players set @p createprocess 18
 execute @s[tag=mainhost,scores={createprocess=-20}] ~ ~ ~ gamemode c @s
-execute @s[tag=mainhost,scores={createprocess=-20}] ~ ~ ~ setblock ~ ~ ~ portal
 execute @s[tag=mainhost,scores={createprocess=-20}] ~ ~ ~ detect ~ ~-1 ~ obsidian 0 scoreboard players set @s createprocess -21
 execute @s[tag=mainhost,scores={createprocess=-21}] ~ ~ ~ tickingarea add -1 100 -1 1 100 1 nether
 execute @s[tag=mainhost,scores={createprocess=-21}] ~ ~ ~ setblock -1 -64 1 chest
 execute @s[tag=mainhost,scores={createprocess=-21}] ~ ~ ~ fill ~-4 ~-1 ~-4 ~4 ~3 ~4 air 0 replace obsidian
 execute @s[tag=mainhost,scores={createprocess=-21}] ~ ~ ~ fill ~-4 ~-1 ~-4 ~4 ~3 ~4 air 0 replace portal
 execute @s[tag=mainhost,scores={createprocess=-21}] ~ ~ ~ setblock 0 127 0 portal
-execute @s[tag=mainhost,scores={createprocess=-21}] ~ ~ ~ tp @s 0 127 1
+execute @s[tag=mainhost,scores={createprocess=-21}] ~ ~ ~ tp @s 0 128 1
 execute @s[tag=mainhost,scores={createprocess=-21}] ~ ~ ~ scoreboard players set @s createprocess -22
 execute @s[tag=mainhost,scores={createprocess=-22,goldenheads=1}] ~ ~ ~ replaceitem block -1 -64 1 slot.container 22 uhc:head
 execute @s[tag=mainhost,scores={createprocess=-22}] ~ ~ ~ gamemode c 
-execute @s[tag=mainhost,scores={createprocess=-22}] ~ ~ ~ tp @s 0 127 0
 execute @s[tag=mainhost,scores={createprocess=-22}] ~ ~ ~ scoreboard players set @s createprocess -26
 execute @s[tag=mainhost,scores={createprocess=-26}] ~ ~ ~ detect ~ ~-1 ~ obsidian 0 scoreboard players set @s createprocess -27
 execute @s[tag=mainhost,scores={createprocess=-27}] ~ ~ ~ fill ~-4 ~-1 ~-4 ~4 ~3 ~4 air 0 replace obsidian
