@@ -4,7 +4,7 @@
         "description": "§c§lby MZLP",
         "name": "§d§lVanillaUHCs 4.0",
         "uuid": "d1a6fb2e-0dd2-4cfb-8eb1-e5ebca78ef6f",
-        "version": [4, 0, 0],
+        "version": [4, 1, 0],
         "min_engine_version": [ 1, 14, 0 ]
     },
     "modules": [
