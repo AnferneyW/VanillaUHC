@@ -73,8 +73,8 @@ execute @s[tag=mainhost,scores={starting_timer=591}] ~ ~ ~ clear @a
 execute @s[tag=mainhost,scores={starting_timer=591}] ~ ~ ~ kill @e[type=!player]
 execute @s[tag=mainhost,scores={starting_timer=591,teamsize=2..5}] ~ ~ ~ scoreboard objectives setdisplay list team
 #rankedanimation
-execute @s[tag=mainhost,scores={starting_timer=595,ranked=1..2}] ~ ~ ~ playsound random.totem @a[tag=playing]
-execute @s[tag=mainhost,scores={starting_timer=595,ranked=1..2}] ~ ~ ~ execute @a[tag=playing] ~ ~ ~ particle minecraft:sonic_explosion ~ ~1 ~
+execute @s[tag=mainhost,scores={starting_timer=595,ranked=1..2}] ~ ~ ~ replaceitem entity @a[tag=playing] slot.weapon.offhand 1 minecraft:totem_of_undying
+execute @s[tag=mainhost,scores={starting_timer=595,ranked=1..2}] ~ ~ ~ damage @a[tag=playing] 20
 execute @s[tag=mainhost,scores={starting_timer=595,ranked=1..2}] ~ ~ ~ titleraw @a subtitle {"rawtext":[{"translate":"scatter.players"}]}
 execute @s[tag=mainhost,scores={starting_timer=595,ranked=0..1}] ~ ~ ~ title @a title §flUHC §e4.0
 execute @s[tag=mainhost,scores={starting_timer=595,ranked=2}] ~ ~ ~ title @a title §a§lUHC Tournament
