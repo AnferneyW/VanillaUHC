@@ -348,6 +348,7 @@ execute @s[tag=mainhost,scores={createprocess=-19,goldenheads=1}] ~ ~ ~ replacei
 execute @s[tag=mainhost,scores={createprocess=-19,nether=1}] ~ ~ ~ scoreboard players set @p createprocess -20
 execute @s[tag=mainhost,scores={createprocess=-19,nether=0}] ~ ~ ~ scoreboard players set @p createprocess 18
 execute @s[tag=mainhost,scores={createprocess=-20}] ~ ~ ~ gamemode c @s
+execute @s[tag=mainhost,scores={createprocess=-20}] ~ ~ ~ setblock ~ ~ ~ portal
 execute @s[tag=mainhost,scores={createprocess=-20}] ~ ~ ~ detect ~ ~-1 ~ obsidian 0 scoreboard players set @s createprocess -21
 execute @s[tag=mainhost,scores={createprocess=-21}] ~ ~ ~ tickingarea add -1 100 -1 1 100 1 nether
 execute @s[tag=mainhost,scores={createprocess=-21}] ~ ~ ~ setblock -1 -64 1 chest
