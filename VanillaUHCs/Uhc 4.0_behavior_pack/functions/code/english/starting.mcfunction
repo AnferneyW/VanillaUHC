@@ -75,6 +75,7 @@ execute @s[tag=mainhost,scores={starting_timer=591,teamsize=2..5}] ~ ~ ~ scorebo
 #rankedanimation
 execute @s[tag=mainhost,scores={starting_timer=595,ranked=1..2}] ~ ~ ~ replaceitem entity @a[tag=playing] slot.weapon.offhand 1 minecraft:totem_of_undying
 execute @s[tag=mainhost,scores={starting_timer=595,ranked=1..2}] ~ ~ ~ damage @a[tag=playing] 20
+execute @s[tag=mainhost,scores={starting_timer=595,ranked=1..2}] ~ ~ ~ effect @a[tag=playing] instant_health 1 255 false
 execute @s[tag=mainhost,scores={starting_timer=595,ranked=1..2}] ~ ~ ~ titleraw @a subtitle {"rawtext":[{"translate":"scatter.players"}]}
 execute @s[tag=mainhost,scores={starting_timer=595,ranked=0..1}] ~ ~ ~ title @a title §flUHC §e4.0
 execute @s[tag=mainhost,scores={starting_timer=595,ranked=2}] ~ ~ ~ title @a title §a§lUHC Tournament
