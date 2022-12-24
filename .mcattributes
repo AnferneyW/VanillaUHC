@@ -4,3 +4,4 @@ diagnostic.disable.minecraft.commands.enchant.syntax=true
 diagnostic.disable.resourcepack.texture.undefined=true
 diagnostic.disable.project.settings=true
 diagnostic.disable.project.settings=true
+diagnostic.disable.minecraft.commands.tp.syntax=true
