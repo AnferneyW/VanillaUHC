@@ -14,5 +14,4 @@ execute @e[type=hovertext:hovertext,name="§6§lTimebomb:",scores={timebomb=200}
 execute @e[type=hovertext:hovertext,name="§6§lTimebomb:",scores={timebomb=240}] ~ ~ ~ kill @e[type=hovertext:hovertext,name="§c10 Seconds...",r=1]
 execute @e[type=hovertext:hovertext,name="§6§lTimebomb:",scores={timebomb=250}] ~ ~ ~ summon hovertext:hovertext "§45 Seconds..." ~ ~-0.2 ~
 execute @e[type=hovertext:hovertext,name="§6§lTimebomb:",scores={timebomb=260..262}] ~ ~ ~ summon tnt ~ ~ ~
-execute @e[type=hovertext:hovertext,name="§6§lTimebomb:",scores={timebomb=260..262}] ~ ~ ~ effect @e[type=tnt,r=2] invisibility 30 255 true
 execute @e[type=hovertext:hovertext,name="§6§lTimebomb:",scores={timebomb=290}] ~ ~ ~ kill @e[type=hovertext:hovertext,r=1]
